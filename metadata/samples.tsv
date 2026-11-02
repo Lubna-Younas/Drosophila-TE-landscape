@@ -1,0 +1,126 @@
+species	sample_id	run_accession	layout	read1_basename	read2_basename	mapping_strandedness_setting	telescope_stranded_mode	included_in_TE_cohort	exclusion_reason	biosample	study	sex	stage_or_tissue_label	replicate_label
+Dmel	dmel_emb.4to6h_st9_R1	SRR767609	PE	dmel_emb.4to6h_st9_R1.fastq1.gz	dmel_emb.4to6h_st9_R1.fastq2.gz	auto	RF	True						1
+Dmel	dmel_emb.8to10h_st12_R1	SRR767615	PE	dmel_emb.8to10h_st12_R1.fastq1.gz	dmel_emb.8to10h_st12_R1.fastq2.gz	auto	RF	True						1
+Dmel	dmel_emb_female_latest-st5_R1	SRR072911	SE	dmel_emb_female_latest-st5_R1.fastq.gz		auto	None	True						1
+Dmel	dmel_emb_female_latest-st5_R2	SRR072912	SE	dmel_emb_female_latest-st5_R2.fastq.gz		auto	None	True						2
+Dmel	dmel_emb_female_mid-st5_R1	SRR072913	SE	dmel_emb_female_mid-st5_R1.fastq.gz		auto	None	True						1
+Dmel	dmel_emb_female_mid-st5_R2	SRR072914	SE	dmel_emb_female_mid-st5_R2.fastq.gz		auto	None	True						2
+Dmel	dmel_emb_female_st2_R1	SRR072905	SE	dmel_emb_female_st2_R1.fastq.gz		auto	None	True						1
+Dmel	dmel_emb_female_st4_R1	SRR072907	SE	dmel_emb_female_st4_R1.fastq.gz		auto	None	True						1
+Dmel	dmel_emb_latest-st5_R1	SRR424685	PE	dmel_emb_latest-st5_R1.fastq1.gz	dmel_emb_latest-st5_R1.fastq2.gz	auto	FR	True						1
+Dmel	dmel_emb_male_latest-st5_R1	SRR072899	SE	dmel_emb_male_latest-st5_R1.fastq.gz		auto	None	True						1
+Dmel	dmel_emb_male_latest-st5_R2	SRR072900	SE	dmel_emb_male_latest-st5_R2.fastq.gz		auto	None	True						2
+Dmel	dmel_emb_male_mid-st5_R1	SRR072901	SE	dmel_emb_male_mid-st5_R1.fastq.gz		auto	None	True						1
+Dmel	dmel_emb_male_mid-st5_R2	SRR072902	SE	dmel_emb_male_mid-st5_R2.fastq.gz		auto	None	True						2
+Dmel	dmel_emb_male_st2_R1	SRR072893	SE	dmel_emb_male_st2_R1.fastq.gz		auto	None	True						1
+Dmel	dmel_emb_male_st4_R1	SRR072895	SE	dmel_emb_male_st4_R1.fastq.gz		auto	None	True						1
+Dmel	dmel_emb_mid-st5_R1	SRR424686	PE	dmel_emb_mid-st5_R1.fastq1.gz	dmel_emb_mid-st5_R1.fastq2.gz	auto	FR	True						1
+Dmel	dmel_emb_st12_R1	SRR424691	PE	dmel_emb_st12_R1.fastq1.gz	dmel_emb_st12_R1.fastq2.gz	auto	FR	True						1
+Dmel	dmel_emb_st2_R1	SRR424683	PE	dmel_emb_st2_R1.fastq1.gz	dmel_emb_st2_R1.fastq2.gz	auto	FR	True						1
+Dmel	dmel_emb_st4_R1	SRR424684	PE	dmel_emb_st4_R1.fastq1.gz	dmel_emb_st4_R1.fastq2.gz	auto	FR	True						1
+Dmel	dmel_emb_st9_R1	SRR424687	PE	dmel_emb_st9_R1.fastq1.gz	dmel_emb_st9_R1.fastq2.gz	auto	FR	True						1
+Dmel	dmel_female_head.ERR2099027_R1	ERR2099027	PE	dmel_female_head.ERR2099027_R1.fastq1.gz	dmel_female_head.ERR2099027_R1.fastq2.gz	auto	RF	True						1
+Dmel	dmel_female_head.ERR2099028_R2	ERR2099028	PE	dmel_female_head.ERR2099028_R2.fastq1.gz	dmel_female_head.ERR2099028_R2.fastq2.gz	auto	RF	True						2
+Dmel	dmel_female_head.ERR2099029_R3	ERR2099029	PE	dmel_female_head.ERR2099029_R3.fastq1.gz	dmel_female_head.ERR2099029_R3.fastq2.gz	auto	RF	True						3
+Dmel	dmel_female_head.virgine_R1	SRR1197486	PE	dmel_female_head.virgine_R1.fastq1.gz	dmel_female_head.virgine_R1.fastq2.gz	auto	RF	True						1
+Dmel	dmel_female_head.virgine_R2	SRR1197374	PE	dmel_female_head.virgine_R2.fastq1.gz	dmel_female_head.virgine_R2.fastq2.gz	auto	RF	True						2
+Dmel	dmel_female_head.virgine_R3	SRR1197294	PE	dmel_female_head.virgine_R3.fastq1.gz	dmel_female_head.virgine_R3.fastq2.gz	auto	RF	True						3
+Dmel	dmel_female_head_R1	SRR6056854	PE	dmel_female_head_R1.fastq1.gz	dmel_female_head_R1.fastq2.gz	auto	RF	True						1
+Dmel	dmel_female_head_R2	SRR6056856	PE	dmel_female_head_R2.fastq1.gz	dmel_female_head_R2.fastq2.gz	auto		False	Excluded by user after paired FASTQ validation failure; no new attempt authorized					2
+Dmel	dmel_female_head_R3	SRR6056858	PE	dmel_female_head_R3.fastq1.gz	dmel_female_head_R3.fastq2.gz	auto	RF	True						3
+Dmel	dmel_female_head_R4	SRR6056860	PE	dmel_female_head_R4.fastq1.gz	dmel_female_head_R4.fastq2.gz	auto	RF	True						4
+Dmel	dmel_female_larvae_R1	SRR5366376	PE	dmel_female_larvae_R1.fastq1.gz	dmel_female_larvae_R1.fastq2.gz	auto	RF	True						1
+Dmel	dmel_female_larvae_R2	SRR5366377	PE	dmel_female_larvae_R2.fastq1.gz	dmel_female_larvae_R2.fastq2.gz	auto	RF	True						2
+Dmel	dmel_female_larvae_R3	SRR5366378	PE	dmel_female_larvae_R3.fastq1.gz	dmel_female_larvae_R3.fastq2.gz	auto	RF	True						3
+Dmel	dmel_female_larvae_R4	SRR5366379	PE	dmel_female_larvae_R4.fastq1.gz	dmel_female_larvae_R4.fastq2.gz	auto	RF	True						4
+Dmel	dmel_female_ovary.virgine_R1	SRR1197480	PE	dmel_female_ovary.virgine_R1.fastq1.gz	dmel_female_ovary.virgine_R1.fastq2.gz	auto	RF	True						1
+Dmel	dmel_female_ovary.virgine_R2	SRR1197376	PE	dmel_female_ovary.virgine_R2.fastq1.gz	dmel_female_ovary.virgine_R2.fastq2.gz	auto	RF	True						2
+Dmel	dmel_female_ovary.virgine_R3	SRR1197296	PE	dmel_female_ovary.virgine_R3.fastq1.gz	dmel_female_ovary.virgine_R3.fastq2.gz	auto	RF	True						3
+Dmel	dmel_female_ovary_R1	SRR2020999	PE	dmel_female_ovary_R1.fastq1.gz	dmel_female_ovary_R1.fastq2.gz	auto	None	True						1
+Dmel	dmel_male_head.ERR2103702_R1	ERR2103702	PE	dmel_male_head.ERR2103702_R1.fastq1.gz	dmel_male_head.ERR2103702_R1.fastq2.gz	auto	RF	True						1
+Dmel	dmel_male_head.ERR2103703_R2	ERR2103703	PE	dmel_male_head.ERR2103703_R2.fastq1.gz	dmel_male_head.ERR2103703_R2.fastq2.gz	auto	RF	True						2
+Dmel	dmel_male_head.ERR2103704_R3	ERR2103704	PE	dmel_male_head.ERR2103704_R3.fastq1.gz	dmel_male_head.ERR2103704_R3.fastq2.gz	auto	RF	True						3
+Dmel	dmel_male_head_R1	SRR6056853	PE	dmel_male_head_R1.fastq1.gz	dmel_male_head_R1.fastq2.gz	auto	RF	True						1
+Dmel	dmel_male_head_R2	SRR6056855	PE	dmel_male_head_R2.fastq1.gz	dmel_male_head_R2.fastq2.gz	auto	RF	True						2
+Dmel	dmel_male_head_R3	SRR6056857	PE	dmel_male_head_R3.fastq1.gz	dmel_male_head_R3.fastq2.gz	auto	RF	True						3
+Dmel	dmel_male_head_R4	SRR6056859	PE	dmel_male_head_R4.fastq1.gz	dmel_male_head_R4.fastq2.gz	auto	RF	True						4
+Dmel	dmel_male_larvae_R1	SRR5366372	PE	dmel_male_larvae_R1.fastq1.gz	dmel_male_larvae_R1.fastq2.gz	auto	RF	True						1
+Dmel	dmel_male_larvae_R2	SRR5366373	PE	dmel_male_larvae_R2.fastq1.gz	dmel_male_larvae_R2.fastq2.gz	auto	RF	True						2
+Dmel	dmel_male_larvae_R3	SRR5366374	PE	dmel_male_larvae_R3.fastq1.gz	dmel_male_larvae_R3.fastq2.gz	auto	RF	True						3
+Dmel	dmel_male_larvae_R4	SRR5366375	PE	dmel_male_larvae_R4.fastq1.gz	dmel_male_larvae_R4.fastq2.gz	auto	RF	True						4
+Dmel	dmel_male_testis_R1	SRR2021001	PE	dmel_male_testis_R1.fastq1.gz	dmel_male_testis_R1.fastq2.gz	auto	None	True						1
+Dmir	Dmir.RNA_St12-M_R3	SRR1055087	PE	Dmir.RNA_St12-M_R3_fq1.gz	Dmir.RNA_St12-M_R3_fq2.gz	auto	None	True		SAMN02464324	SRP034605			
+Dmir	Dmir.RNA_St2_R1	SRR1054998	PE	Dmir.RNA_St2_R1_fq1.gz	Dmir.RNA_St2_R1_fq2.gz	auto	None	True		SAMN02464290	SRP034605			
+Dmir	Dmir.RNA_St2_R2	SRR1054999	PE	Dmir.RNA_St2_R2_fq1.gz	Dmir.RNA_St2_R2_fq2.gz	auto	None	True		SAMN02464288	SRP034605			
+Dmir	Dmir.RNA_St2_R3	SRR1055000	PE	Dmir.RNA_St2_R3_fq1.gz	Dmir.RNA_St2_R3_fq2.gz	auto	None	True		SAMN02464292	SRP034605			
+Dmir	Dmir.RNA_St4-F_R3	SRR1055012	PE	Dmir.RNA_St4-F_R3_fq1.gz	Dmir.RNA_St4-F_R3_fq2.gz	auto	None	True		SAMN02464305	SRP034605			
+Dmir	Dmir.RNA_St4-M_R3	SRR1055015	PE	Dmir.RNA_St4-M_R3_fq1.gz	Dmir.RNA_St4-M_R3_fq2.gz	auto	None	True		SAMN02464310	SRP034605			
+Dmir	Dmir.RNA_St9-F_R3	SRR1055060	PE	Dmir.RNA_St9-F_R3_fq1.gz	Dmir.RNA_St9-F_R3_fq2.gz	auto	None	True		SAMN02464327	SRP034605			
+Dmir	Dmir.RNA_female_carcass_virgin	SRR364804	PE	Dmir.RNA_female_carcass_virgin_fq1.gz	Dmir.RNA_female_carcass_virgin_fq2.gz	auto	None	True		SAMN00759101	SRP009365			
+Dmir	Dmir.RNA_female_head	SRR4416186	PE	Dmir.RNA_female_head_fq1.gz	Dmir.RNA_female_head_fq2.gz	auto	None	True		SAMN05897910	SRP091398	female		
+Dmir	Dmir.RNA_female_larvae	SRR899848	PE	Dmir.RNA_female_larvae_fq1.gz	Dmir.RNA_female_larvae_fq2.gz	auto	None	True		SAMN02639735	SRP009365	female		
+Dmir	Dmir.RNA_female_ovary_virgin	SRR364801	PE	Dmir.RNA_female_ovary_virgin_fq1.gz	Dmir.RNA_female_ovary_virgin_fq2.gz	auto	None	True		SAMN00759096	SRP009365			
+Dmir	Dmir.RNA_female_spermatheca	SRR4416187	PE	Dmir.RNA_female_spermatheca_fq1.gz	Dmir.RNA_female_spermatheca_fq2.gz	auto	None	True		SAMN05897911	SRP091398	female		
+Dmir	Dmir.RNA_female_wohlebody_virgin	SRR364800	PE	Dmir.RNA_female_wohlebody_virgin_fq1.gz	Dmir.RNA_female_wohlebody_virgin_fq2.gz	auto	None	True		SAMN00759991	SRP009365			
+Dmir	Dmir.RNA_latest-St5-F_R3	SRR1055036	PE	Dmir.RNA_latest-St5-F_R3_fq1.gz	Dmir.RNA_latest-St5-F_R3_fq2.gz	auto	None	True		SAMN02464272	SRP034605			
+Dmir	Dmir.RNA_latest-St5-M_R3	SRR1055039	PE	Dmir.RNA_latest-St5-M_R3_fq1.gz	Dmir.RNA_latest-St5-M_R3_fq2.gz	auto	None	True		SAMN02464270	SRP034605			
+Dmir	Dmir.RNA_male_acc.gland_virgin	SRR364802	PE	Dmir.RNA_male_acc.gland_virgin_fq1.gz	Dmir.RNA_male_acc.gland_virgin_fq2.gz	auto	None	True		SAMN00759095	SRP009365			
+Dmir	Dmir.RNA_male_carcass_virgin	SRR364803	PE	Dmir.RNA_male_carcass_virgin_fq1.gz	Dmir.RNA_male_carcass_virgin_fq2.gz	auto	None	True		SAMN00759100	SRP009365			
+Dmir	Dmir.RNA_male_head	SRR4416188	PE	Dmir.RNA_male_head_fq1.gz	Dmir.RNA_male_head_fq2.gz	auto	None	True		SAMN05897912	SRP091398	male		
+Dmir	Dmir.RNA_male_larvae	SRR899847	PE	Dmir.RNA_male_larvae_fq1.gz	Dmir.RNA_male_larvae_fq2.gz	auto	None	True		SAMN02639734	SRP009365	male		
+Dmir	Dmir.RNA_male_testis_virgin	SRR364799	PE	Dmir.RNA_male_testis_virgin_fq1.gz	Dmir.RNA_male_testis_virgin_fq2.gz	auto	None	True		SAMN00759094	SRP009365			
+Dmir	Dmir.RNA_male_wohlebody_virgin	SRR364798	PE	Dmir.RNA_male_wohlebody_virgin_fq1.gz	Dmir.RNA_male_wohlebody_virgin_fq2.gz	auto	None	True		SAMN00759102	SRP009365			
+Dmir	Dmir.RNA_mid-St5-F_R3	SRR1055027	PE	Dmir.RNA_mid-St5-F_R3_fq1.gz	Dmir.RNA_mid-St5-F_R3_fq2.gz	auto	None	True		SAMN02464266	SRP034605			
+Dpse	Dpse.RNA_SexNA_St2_Rep1_SRR1055004	SRR1055004	PE	Dpse.RNA_SexNA_St2_Rep1_SRR1055004_fastq1.gz	Dpse.RNA_SexNA_St2_Rep1_SRR1055004_fastq2.gz	auto	None	True		SAMN02464297	SRP034605	SexNA	St2	1
+Dpse	Dpse.RNA_SexNA_St2_Rep2_SRR1055005	SRR1055005	PE	Dpse.RNA_SexNA_St2_Rep2_SRR1055005_fastq1.gz	Dpse.RNA_SexNA_St2_Rep2_SRR1055005_fastq2.gz	auto	None	True		SAMN02464296	SRP034605	SexNA	St2	2
+Dpse	Dpse.RNA_SexNA_St2_Rep3_SRR1055006	SRR1055006	PE	Dpse.RNA_SexNA_St2_Rep3_SRR1055006_fastq1.gz	Dpse.RNA_SexNA_St2_Rep3_SRR1055006_fastq2.gz	auto	None	True		SAMN02464301	SRP034605	SexNA	St2	3
+Dpse	Dpse.RNA_female_AdultHead_Rep1_DRR055248	DRR055248	PE	Dpse.RNA_female_AdultHead_Rep1_DRR055248_fastq1.gz	Dpse.RNA_female_AdultHead_Rep1_DRR055248_fastq2.gz	auto	None	True		SAMD00047194	DRP003328	female	AdultHead	1
+Dpse	Dpse.RNA_female_AdultHead_Rep2_DRR055249	DRR055249	PE	Dpse.RNA_female_AdultHead_Rep2_DRR055249_fastq1.gz	Dpse.RNA_female_AdultHead_Rep2_DRR055249_fastq2.gz	auto	None	True		SAMD00047194	DRP003328	female	AdultHead	2
+Dpse	Dpse.RNA_female_AdultOvary_Rep1_DRR055260	DRR055260	PE	Dpse.RNA_female_AdultOvary_Rep1_DRR055260_fastq1.gz	Dpse.RNA_female_AdultOvary_Rep1_DRR055260_fastq2.gz	auto	None	True		SAMD00047200	DRP003328	female	AdultOvary	1
+Dpse	Dpse.RNA_female_AdultOvary_Rep2_DRR055261	DRR055261	PE	Dpse.RNA_female_AdultOvary_Rep2_DRR055261_fastq1.gz	Dpse.RNA_female_AdultOvary_Rep2_DRR055261_fastq2.gz	auto	None	True		SAMD00047200	DRP003328	female	AdultOvary	2
+Dpse	Dpse.RNA_female_AdultOvary_RepNA_SRR357400	SRR357400	PE	Dpse.RNA_female_AdultOvary_RepNA_SRR357400_fastq1.gz	Dpse.RNA_female_AdultOvary_RepNA_SRR357400_fastq2.gz	auto	None	True		SAMN00740120	SRP009072	female	AdultOvary	NA
+Dpse	Dpse.RNA_female_L3-wandering_RepA_SRR2138432	SRR2138432	PE	Dpse.RNA_female_L3-wandering_RepA_SRR2138432_fastq1.gz	Dpse.RNA_female_L3-wandering_RepA_SRR2138432_fastq2.gz	auto	None	True		SAMN03943692	SRP061891	female	L3-wandering	A
+Dpse	Dpse.RNA_female_L3-wandering_RepB_SRR2138433	SRR2138433	PE	Dpse.RNA_female_L3-wandering_RepB_SRR2138433_fastq1.gz	Dpse.RNA_female_L3-wandering_RepB_SRR2138433_fastq2.gz	auto	None	True		SAMN03943692	SRP061891	female	L3-wandering	B
+Dpse	Dpse.RNA_female_L3-wandering_RepC_SRR2138434	SRR2138434	PE	Dpse.RNA_female_L3-wandering_RepC_SRR2138434_fastq1.gz	Dpse.RNA_female_L3-wandering_RepC_SRR2138434_fastq2.gz	auto	None	True		SAMN03943692	SRP061891	female	L3-wandering	C
+Dpse	Dpse.RNA_female_L3_Rep1_DRR055252	DRR055252	PE	Dpse.RNA_female_L3_Rep1_DRR055252_fastq1.gz	Dpse.RNA_female_L3_Rep1_DRR055252_fastq2.gz	auto	None	True		SAMD00047196	DRP003328	female	L3	1
+Dpse	Dpse.RNA_female_L3_Rep2_DRR055253	DRR055253	PE	Dpse.RNA_female_L3_Rep2_DRR055253_fastq1.gz	Dpse.RNA_female_L3_Rep2_DRR055253_fastq2.gz	auto	None	True		SAMD00047196	DRP003328	female	L3	2
+Dpse	Dpse.RNA_female_L3_RepNA_SRR4416168	SRR4416168	PE	Dpse.RNA_female_L3_RepNA_SRR4416168_fastq1.gz	Dpse.RNA_female_L3_RepNA_SRR4416168_fastq2.gz	auto	None	True		SAMN05897908	SRP091398	female	L3	NA
+Dpse	Dpse.RNA_female_St12_Rep1_SRR1055088	SRR1055088	PE	Dpse.RNA_female_St12_Rep1_SRR1055088_fastq1.gz	Dpse.RNA_female_St12_Rep1_SRR1055088_fastq2.gz	auto	None	True		SAMN02464319	SRP034605	female	St12	1
+Dpse	Dpse.RNA_female_St12_Rep2_SRR1055089	SRR1055089	PE	Dpse.RNA_female_St12_Rep2_SRR1055089_fastq1.gz	Dpse.RNA_female_St12_Rep2_SRR1055089_fastq2.gz	auto	None	True		SAMN02464315	SRP034605	female	St12	2
+Dpse	Dpse.RNA_female_St12_Rep3_SRR1055090	SRR1055090	PE	Dpse.RNA_female_St12_Rep3_SRR1055090_fastq1.gz	Dpse.RNA_female_St12_Rep3_SRR1055090_fastq2.gz	auto	None	True		SAMN02464325	SRP034605	female	St12	3
+Dpse	Dpse.RNA_female_St4_Rep1_SRR1055016	SRR1055016	PE	Dpse.RNA_female_St4_Rep1_SRR1055016_fastq1.gz	Dpse.RNA_female_St4_Rep1_SRR1055016_fastq2.gz	auto	None	True		SAMN02464307	SRP034605	female	St4	1
+Dpse	Dpse.RNA_female_St4_Rep2_SRR1055017	SRR1055017	PE	Dpse.RNA_female_St4_Rep2_SRR1055017_fastq1.gz	Dpse.RNA_female_St4_Rep2_SRR1055017_fastq2.gz	auto	None	True		SAMN02464308	SRP034605	female	St4	2
+Dpse	Dpse.RNA_female_St4_Rep3_SRR1055018	SRR1055018	PE	Dpse.RNA_female_St4_Rep3_SRR1055018_fastq1.gz	Dpse.RNA_female_St4_Rep3_SRR1055018_fastq2.gz	auto	None	True		SAMN02464314	SRP034605	female	St4	3
+Dpse	Dpse.RNA_female_St5-latest_Rep1_SRR1055040	SRR1055040	PE	Dpse.RNA_female_St5-latest_Rep1_SRR1055040_fastq1.gz	Dpse.RNA_female_St5-latest_Rep1_SRR1055040_fastq2.gz	auto	None	True		SAMN02464275	SRP034605	female	St5-latest	1
+Dpse	Dpse.RNA_female_St5-latest_Rep2_SRR1055041	SRR1055041	PE	Dpse.RNA_female_St5-latest_Rep2_SRR1055041_fastq1.gz	Dpse.RNA_female_St5-latest_Rep2_SRR1055041_fastq2.gz	auto	None	True		SAMN02464273	SRP034605	female	St5-latest	2
+Dpse	Dpse.RNA_female_St5-latest_Rep3_SRR1055042	SRR1055042	PE	Dpse.RNA_female_St5-latest_Rep3_SRR1055042_fastq1.gz	Dpse.RNA_female_St5-latest_Rep3_SRR1055042_fastq2.gz	auto	None	True		SAMN02464274	SRP034605	female	St5-latest	3
+Dpse	Dpse.RNA_female_St5-mid_Rep2_SRR1055029	SRR1055029	PE	Dpse.RNA_female_St5-mid_Rep2_SRR1055029_fastq1.gz	Dpse.RNA_female_St5-mid_Rep2_SRR1055029_fastq2.gz	auto	None	True		SAMN02464265	SRP034605	female	St5-mid	2
+Dpse	Dpse.RNA_female_St5-mid_Rep3_SRR1055030	SRR1055030	PE	Dpse.RNA_female_St5-mid_Rep3_SRR1055030_fastq1.gz	Dpse.RNA_female_St5-mid_Rep3_SRR1055030_fastq2.gz	auto	None	True		SAMN02464268	SRP034605	female	St5-mid	3
+Dpse	Dpse.RNA_female_St8to9_Rep1_SRR1055064	SRR1055064	PE	Dpse.RNA_female_St8to9_Rep1_SRR1055064_fastq1.gz	Dpse.RNA_female_St8to9_Rep1_SRR1055064_fastq2.gz	auto	None	True		SAMN02464336	SRP034605	female	St8to9	1
+Dpse	Dpse.RNA_female_St8to9_Rep2_SRR1055065	SRR1055065	PE	Dpse.RNA_female_St8to9_Rep2_SRR1055065_fastq1.gz	Dpse.RNA_female_St8to9_Rep2_SRR1055065_fastq2.gz	auto	None	True		SAMN02464330	SRP034605	female	St8to9	2
+Dpse	Dpse.RNA_male_AdultHead_Rep1_DRR055250	DRR055250	PE	Dpse.RNA_male_AdultHead_Rep1_DRR055250_fastq1.gz	Dpse.RNA_male_AdultHead_Rep1_DRR055250_fastq2.gz	auto	None	True		SAMD00047195	DRP003328	male	AdultHead	1
+Dpse	Dpse.RNA_male_AdultHead_Rep2_DRR055251	DRR055251	PE	Dpse.RNA_male_AdultHead_Rep2_DRR055251_fastq1.gz	Dpse.RNA_male_AdultHead_Rep2_DRR055251_fastq2.gz	auto	None	True		SAMD00047195	DRP003328	male	AdultHead	2
+Dpse	Dpse.RNA_male_AdultTestis_Rep1_DRR055270	DRR055270	PE	Dpse.RNA_male_AdultTestis_Rep1_DRR055270_fastq1.gz	Dpse.RNA_male_AdultTestis_Rep1_DRR055270_fastq2.gz	auto	None	True		SAMD00047205	DRP003328	male	AdultTestis	1
+Dpse	Dpse.RNA_male_AdultTestis_Rep2_DRR055271	DRR055271	PE	Dpse.RNA_male_AdultTestis_Rep2_DRR055271_fastq1.gz	Dpse.RNA_male_AdultTestis_Rep2_DRR055271_fastq2.gz	auto	None	True		SAMD00047205	DRP003328	male	AdultTestis	2
+Dpse	Dpse.RNA_male_AdultTestis_RepNA_SRR357404	SRR357404	PE	Dpse.RNA_male_AdultTestis_RepNA_SRR357404_fastq1.gz	Dpse.RNA_male_AdultTestis_RepNA_SRR357404_fastq2.gz	auto	None	True		SAMN00740129	SRP009072	male	AdultTestis	NA
+Dpse	Dpse.RNA_male_L3-wandering_RepA_SRR2138429	SRR2138429	PE	Dpse.RNA_male_L3-wandering_RepA_SRR2138429_fastq1.gz	Dpse.RNA_male_L3-wandering_RepA_SRR2138429_fastq2.gz	auto	None	True		SAMN03943691	SRP061891	male	L3-wandering	A
+Dpse	Dpse.RNA_male_L3-wandering_RepB_SRR2138430	SRR2138430	PE	Dpse.RNA_male_L3-wandering_RepB_SRR2138430_fastq1.gz	Dpse.RNA_male_L3-wandering_RepB_SRR2138430_fastq2.gz	auto	None	True		SAMN03943691	SRP061891	male	L3-wandering	B
+Dpse	Dpse.RNA_male_L3-wandering_RepC_SRR2138431	SRR2138431	PE	Dpse.RNA_male_L3-wandering_RepC_SRR2138431_fastq1.gz	Dpse.RNA_male_L3-wandering_RepC_SRR2138431_fastq2.gz	auto	None	True		SAMN03943691	SRP061891	male	L3-wandering	C
+Dpse	Dpse.RNA_male_L3_Rep1_DRR055254	DRR055254	PE	Dpse.RNA_male_L3_Rep1_DRR055254_fastq1.gz	Dpse.RNA_male_L3_Rep1_DRR055254_fastq2.gz	auto	None	True		SAMD00047197	DRP003328	male	L3	1
+Dpse	Dpse.RNA_male_L3_Rep2_DRR055255	DRR055255	PE	Dpse.RNA_male_L3_Rep2_DRR055255_fastq1.gz	Dpse.RNA_male_L3_Rep2_DRR055255_fastq2.gz	auto	None	True		SAMD00047197	DRP003328	male	L3	2
+Dpse	Dpse.RNA_male_L3_RepNA_SRR4416179	SRR4416179	PE	Dpse.RNA_male_L3_RepNA_SRR4416179_fastq1.gz	Dpse.RNA_male_L3_RepNA_SRR4416179_fastq2.gz	auto	None	True		SAMN05897909	SRP091398	male	L3	NA
+Dpse	Dpse.RNA_male_St12_Rep1_SRR1055091	SRR1055091	PE	Dpse.RNA_male_St12_Rep1_SRR1055091_fastq1.gz	Dpse.RNA_male_St12_Rep1_SRR1055091_fastq2.gz	auto	None	True		SAMN02464322	SRP034605	male	St12	1
+Dpse	Dpse.RNA_male_St12_Rep2_SRR1055092	SRR1055092	PE	Dpse.RNA_male_St12_Rep2_SRR1055092_fastq1.gz	Dpse.RNA_male_St12_Rep2_SRR1055092_fastq2.gz	auto	None	True		SAMN02464323	SRP034605	male	St12	2
+Dpse	Dpse.RNA_male_St12_Rep3_SRR1055093	SRR1055093	PE	Dpse.RNA_male_St12_Rep3_SRR1055093_fastq1.gz	Dpse.RNA_male_St12_Rep3_SRR1055093_fastq2.gz	auto	None	True		SAMN02464331	SRP034605	male	St12	3
+Dpse	Dpse.RNA_male_St4_Rep1_SRR1055019	SRR1055019	PE	Dpse.RNA_male_St4_Rep1_SRR1055019_fastq1.gz	Dpse.RNA_male_St4_Rep1_SRR1055019_fastq2.gz	auto	None	True		SAMN02464311	SRP034605	male	St4	1
+Dpse	Dpse.RNA_male_St4_Rep2_SRR1055020	SRR1055020	PE	Dpse.RNA_male_St4_Rep2_SRR1055020_fastq1.gz	Dpse.RNA_male_St4_Rep2_SRR1055020_fastq2.gz	auto	None	True		SAMN02464309	SRP034605	male	St4	2
+Dpse	Dpse.RNA_male_St4_Rep3_SRR1055021	SRR1055021	PE	Dpse.RNA_male_St4_Rep3_SRR1055021_fastq1.gz	Dpse.RNA_male_St4_Rep3_SRR1055021_fastq2.gz	auto	None	True		SAMN02464320	SRP034605	male	St4	3
+Dpse	Dpse.RNA_male_St5-latest_Rep1_SRR1055043	SRR1055043	PE	Dpse.RNA_male_St5-latest_Rep1_SRR1055043_fastq1.gz	Dpse.RNA_male_St5-latest_Rep1_SRR1055043_fastq2.gz	auto	None	True		SAMN02464276	SRP034605	male	St5-latest	1
+Dpse	Dpse.RNA_male_St5-latest_Rep2_SRR1055044	SRR1055044	PE	Dpse.RNA_male_St5-latest_Rep2_SRR1055044_fastq1.gz	Dpse.RNA_male_St5-latest_Rep2_SRR1055044_fastq2.gz	auto	None	True		SAMN02464277	SRP034605	male	St5-latest	2
+Dpse	Dpse.RNA_male_St5-latest_Rep3_SRR1055045	SRR1055045	PE	Dpse.RNA_male_St5-latest_Rep3_SRR1055045_fastq1.gz	Dpse.RNA_male_St5-latest_Rep3_SRR1055045_fastq2.gz	auto	None	True		SAMN02464282	SRP034605	male	St5-latest	3
+Dpse	Dpse.RNA_male_St5-mid_Rep1_SRR1055031	SRR1055031	PE	Dpse.RNA_male_St5-mid_Rep1_SRR1055031_fastq1.gz	Dpse.RNA_male_St5-mid_Rep1_SRR1055031_fastq2.gz	auto	None	True		SAMN02464264	SRP034605	male	St5-mid	1
+Dpse	Dpse.RNA_male_St5-mid_Rep2_SRR1055032	SRR1055032	PE	Dpse.RNA_male_St5-mid_Rep2_SRR1055032_fastq1.gz	Dpse.RNA_male_St5-mid_Rep2_SRR1055032_fastq2.gz	auto	None	True		SAMN02464263	SRP034605	male	St5-mid	2
+Dpse	Dpse.RNA_male_St5-mid_Rep3_SRR1055033	SRR1055033	PE	Dpse.RNA_male_St5-mid_Rep3_SRR1055033_fastq1.gz	Dpse.RNA_male_St5-mid_Rep3_SRR1055033_fastq2.gz	auto	None	True		SAMN02464262	SRP034605	male	St5-mid	3
+Dpse	Dpse.RNA_male_St8to9_Rep1_SRR1055067	SRR1055067	PE	Dpse.RNA_male_St8to9_Rep1_SRR1055067_fastq1.gz	Dpse.RNA_male_St8to9_Rep1_SRR1055067_fastq2.gz	auto	None	True		SAMN02464338	SRP034605	male	St8to9	1
+Dpse	Dpse.RNA_male_St8to9_Rep2_SRR1055068	SRR1055068	PE	Dpse.RNA_male_St8to9_Rep2_SRR1055068_fastq1.gz	Dpse.RNA_male_St8to9_Rep2_SRR1055068_fastq2.gz	auto	None	True		SAMN02464339	SRP034605	male	St8to9	2
+Dpse	Dpse.RNA_male_St8to9_Rep3_SRR1055069	SRR1055069	PE	Dpse.RNA_male_St8to9_Rep3_SRR1055069_fastq1.gz	Dpse.RNA_male_St8to9_Rep3_SRR1055069_fastq2.gz	auto	None	True		SAMN02464333	SRP034605	male	St8to9	3

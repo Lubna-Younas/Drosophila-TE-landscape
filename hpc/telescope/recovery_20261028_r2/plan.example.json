@@ -1,0 +1,83 @@
+{
+  "root": "/PROJECT_ROOT/te_expression_recovery_20261028_r2",
+  "created_utc": "2026-10-28",
+  "method": "Telescope 1.0.4.1; average reassignment; locus and family counts",
+  "telescope_version": "1.0.4.1",
+  "telescope_build": "py36hab16a5f_0",
+  "conda": "/SOFTWARE_ROOT/miniforge3/bin/conda",
+  "samtools_module": "SAMtools/1.21-GCC-13.3.0",
+  "repeatmasker_module": "RepeatMasker/4.2.6-foss-2024a",
+  "walltime": "48:00:00",
+  "walltime_reason": "LiSC sbatch --test-only rejects missing time and time=0.",
+  "excluded_runs": [
+    "SRR6056856"
+  ],
+  "species": {
+    "Dmel": {
+      "assembly": "FlyBase_r6.69",
+      "mapping_controller": "/PROJECT_ROOT/mapping_lisc_20261023_r3",
+      "genome": {
+        "relative_path": "genome.fa",
+        "bytes": 145929173,
+        "mtime_ns": 1792762218188248789,
+        "sha256": "3a2b09ae95087bfaaa318f9a2a9ac410a3783c5e2d045d715c74f65b91328ec2",
+        "path": "/PROJECT_ROOT/mapping_lisc_20261023_r3/reference/genome.fa"
+      },
+      "reference_receipt": "/PROJECT_ROOT/mapping_lisc_20261023_r3/reference/reference_receipt.json",
+      "reference_receipt_sha256": "b425c9fdf5d47d0894418f56779903a87cf1b1fad0240c1a8ea2248af8042384",
+      "annotation_source": {
+        "path": "/PROJECT_ROOT/te_expression_20261028/sources/Dmel_TE_copies.fasta.gz",
+        "sha256": "85e30da239c36d5908bcf235586afeb0ae12d5cd34abb80d2936a91bcaa8973c",
+        "kind": "FlyBase_TE_copy_FASTA"
+      },
+      "sample_count": 49,
+      "preserved_annotation": "/PROJECT_ROOT/te_expression_20261028/annotations/Dmel"
+    },
+    "Dmir": {
+      "assembly": "GCF_003369915.1_D.miranda_PacBio2.1",
+      "mapping_controller": "/PROJECT_ROOT/mapping_Dmir_20261023",
+      "genome": {
+        "relative_path": "genome.fa",
+        "bytes": 290700447,
+        "mtime_ns": 1792790801395631194,
+        "sha256": "b7583660474148f88c9382d427a734661af970d5989aa52dc296d43ac5602fb2",
+        "path": "/PROJECT_ROOT/mapping_Dmir_20261023/reference/genome.fa"
+      },
+      "reference_receipt": "/PROJECT_ROOT/mapping_Dmir_20261023/reference/reference_receipt.json",
+      "reference_receipt_sha256": "202442608985077716a04847c7c230c4abf9258f54b94b44e00a62deeac7abb2",
+      "annotation_source": {
+        "path": "/PROJECT_ROOT/te_expression_20261028/sources/Dmir_rm.out.gz",
+        "sha256": "63b3d38a13b4d585264883c7f037a40313dd53f59f42de74005545c9c9fce729",
+        "kind": "NCBI_RepeatMasker"
+      },
+      "sample_count": 22,
+      "preserved_annotation": "/PROJECT_ROOT/te_expression_20261028/annotations/Dmir"
+    },
+    "Dpse": {
+      "assembly": "GCA_004329205.1_UCBerk_Dpse_1.0",
+      "mapping_controller": "/PROJECT_ROOT/mapping_Dpse_20261023",
+      "genome": {
+        "relative_path": "genome.fa",
+        "bytes": 196449031,
+        "mtime_ns": 1792790852726597769,
+        "sha256": "8b7d50eae1b506666eed013136edcc8b4816e8d075149e3d7064477605bd10f7",
+        "path": "/PROJECT_ROOT/mapping_Dpse_20261023/reference/genome.fa"
+      },
+      "reference_receipt": "/PROJECT_ROOT/mapping_Dpse_20261023/reference/reference_receipt.json",
+      "reference_receipt_sha256": "03a87976fb1d4bdf9cb5cbf4a421f3fc17f3204c308889edcb13b9e2749f19c7",
+      "annotation_source": {
+        "path": "/PROJECT_ROOT/Dpse_genome/repeat_libraries/Hill_Betancourt_2018/obscura_group_TE_consensus.fa",
+        "sha256": "9d73b8ad683bcf58e52ce362ee48afc8c859479200089591719a7879f054101c",
+        "kind": "RepeatMasker_custom_library"
+      },
+      "sample_count": 53
+    }
+  },
+  "base_controller": "/PROJECT_ROOT/te_expression_20261028",
+  "base_package_sha256": "36b606832d5b42cfcb8d94d360979d0aec588292bccd058aa06db4767085abdb",
+  "telescope_env": "/PROJECT_ROOT/te_expression_20261028/runtime/telescope-1.0.4.1",
+  "em_epsilon": 1e-07,
+  "max_iter": 100000,
+  "pi_prior": 0,
+  "theta_prior": 200000
+}

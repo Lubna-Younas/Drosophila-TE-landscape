@@ -1,0 +1,4 @@
+species	assembly	genome_basename	genome_source_sha256	gene_gtf_basename	gene_gtf_sha256	gene_quantification
+Dmel	FlyBase_r6.69	dmel-all-chromosome-r6.69.fasta.gz	2fdc6b46d2c1d26f56453acc663d92c6fa921c75a054156c68c5912f3134d1b8	dmel-all-r6.69.gtf.gz	29e24e0e1aba171bd4fa03c804648d0730173e12275bd47f453187226f3febf6	STAR transcriptome BAM and RSEM
+Dmir	GCF_003369915.1_D.miranda_PacBio2.1	GCF_003369915.1_D.miranda_PacBio2.1_genomic.fna.gz	9af06cbcf9c1680d0997f61437838ee458696127d716322b8bbfd63498b3b9f6	GCF_003369915.1_D.miranda_PacBio2.1_genomic.gtf.gz	3d8112fe9365da2c46ca0a207484c8e9c18b6d164b7c71c1f783ed1b48c074de	STAR transcriptome BAM and RSEM
+Dpse	GCA_004329205.1_UCBerk_Dpse_1.0	GCA_004329205.1_UCBerk_Dpse_1.0_genomic.fna.gz	3dcd568b6889d8c789048696caabff1842e05befa49b7f54007b1d9c04a0d3e7			STAR genome BAM only; no RSEM

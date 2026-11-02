@@ -1,0 +1,2 @@
+species	sample_id	run_accession	status	reason
+Dmel	dmel_female_head_R2	SRR6056856	EXCLUDED_BY_USER_UNTIL_REINSTATED	Paired FASTQ validation failure; no new attempt authorized

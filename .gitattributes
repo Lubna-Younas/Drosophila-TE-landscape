@@ -1,0 +1,3 @@
+* text=auto eol=lf
+# Empty terminal TSV fields are intentional, not prose whitespace mistakes.
+*.tsv whitespace=-blank-at-eol

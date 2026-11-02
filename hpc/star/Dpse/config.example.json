@@ -1,0 +1,23 @@
+{
+  "project": "Comparative Drosophila RNA-seq mapping",
+  "species": "Dpse",
+  "run_dir": "/PROJECT_ROOT/mapping_Dpse_20261023",
+  "results_dir": "/PROJECT_ROOT/mapping_Dpse_20261023/results",
+  "reference_dir": "/PROJECT_ROOT/mapping_Dpse_20261023/reference",
+  "reference_prefix": "Dpse",
+  "scratch_root": "/tmp",
+  "assembly": "GCA_004329205.1_UCBerk_Dpse_1.0",
+  "genome": "/PROJECT_ROOT/GCA_004329205.1_UCBerk_Dpse_1.0/ncbi/GCA_004329205.1_UCBerk_Dpse_1.0_genomic.fna.gz",
+  "genome_sha256": "3dcd568b6889d8c789048696caabff1842e05befa49b7f54007b1d9c04a0d3e7",
+  "reference_sources": {
+    "genome": {
+      "path": "/PROJECT_ROOT/GCA_004329205.1_UCBerk_Dpse_1.0/ncbi/GCA_004329205.1_UCBerk_Dpse_1.0_genomic.fna.gz",
+      "md5": "fe24b448a20fe35c2b7f07d575e303e4",
+      "sha256": "3dcd568b6889d8c789048696caabff1842e05befa49b7f54007b1d9c04a0d3e7",
+      "download": false
+    }
+  },
+  "duplicate_aliases": [],
+  "analysis_mode": "genome_mapping_only",
+  "annotation_status": "No matching gene annotation supplied; STAR two-pass genome BAMs only; RSEM not run"
+}

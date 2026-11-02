@@ -1,0 +1,25 @@
+{
+  "sample_id": "Dmir.RNA_female_larvae",
+  "run_accession": "SRR899848",
+  "layout": "PE",
+  "strandedness": "auto",
+  "read1": "/PROJECT_ROOT/Dmir_RNA_seq.data/Dmir.RNA_female_larvae_fq1.gz",
+  "read2": "/PROJECT_ROOT/Dmir_RNA_seq.data/Dmir.RNA_female_larvae_fq2.gz",
+  "gzip_depths": [
+    1,
+    1
+  ],
+  "layout_evidence": "NCBI experiment PAIRED and matching first-three actual FASTQ mate IDs; full validation required; runinfo mate statistics can conflict",
+  "input_metadata": [
+    {
+      "path": "/PROJECT_ROOT/Dmir_RNA_seq.data/Dmir.RNA_female_larvae_fq1.gz",
+      "bytes": 5592060367,
+      "mtime_ns": 0
+    },
+    {
+      "path": "/PROJECT_ROOT/Dmir_RNA_seq.data/Dmir.RNA_female_larvae_fq2.gz",
+      "bytes": 5385204260,
+      "mtime_ns": 0
+    }
+  ]
+}

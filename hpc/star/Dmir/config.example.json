@@ -1,0 +1,47 @@
+{
+  "project": "Comparative Drosophila RNA-seq mapping",
+  "species": "Dmir",
+  "run_dir": "/PROJECT_ROOT/mapping_Dmir_20261023",
+  "results_dir": "/PROJECT_ROOT/mapping_Dmir_20261023/results",
+  "reference_dir": "/PROJECT_ROOT/mapping_Dmir_20261023/reference",
+  "reference_prefix": "Dmir",
+  "scratch_root": "/tmp",
+  "annotation_excluded_transcripts": [],
+  "assembly": "GCF_003369915.1_D.miranda_PacBio2.1",
+  "genome": "/PROJECT_ROOT/Dmir_genome/GCF_003369915.1_D.miranda_PacBio2.1_genomic.fna.gz",
+  "genome_sha256": "9af06cbcf9c1680d0997f61437838ee458696127d716322b8bbfd63498b3b9f6",
+  "gtf": "/PROJECT_ROOT/Dmir_genome/GCF_003369915.1_D.miranda_PacBio2.1_genomic.gtf.gz",
+  "gtf_sha256": "3d8112fe9365da2c46ca0a207484c8e9c18b6d164b7c71c1f783ed1b48c074de",
+  "reference_sources": {
+    "genome": {
+      "path": "/PROJECT_ROOT/Dmir_genome/GCF_003369915.1_D.miranda_PacBio2.1_genomic.fna.gz",
+      "md5": "66f4af53c0b1340c52ffc3f6a1530e37",
+      "sha256": "9af06cbcf9c1680d0997f61437838ee458696127d716322b8bbfd63498b3b9f6",
+      "download": false
+    },
+    "gtf": {
+      "path": "/PROJECT_ROOT/Dmir_genome/GCF_003369915.1_D.miranda_PacBio2.1_genomic.gtf.gz",
+      "md5": "fb58b3756446a23664fb3b1660ed10b8",
+      "sha256": "3d8112fe9365da2c46ca0a207484c8e9c18b6d164b7c71c1f783ed1b48c074de",
+      "download": false
+    }
+  },
+  "duplicate_aliases": [
+    {
+      "canonical": "/PROJECT_ROOT/Dmir_RNA_seq.data/Dmir.RNA_female_ovary_virgin_fq1.gz",
+      "alias": "/PROJECT_ROOT/Dmir_RNA_seq.data/Dmir.RNA_virgin-F.ovary_R1_fq1.gz"
+    },
+    {
+      "canonical": "/PROJECT_ROOT/Dmir_RNA_seq.data/Dmir.RNA_female_ovary_virgin_fq2.gz",
+      "alias": "/PROJECT_ROOT/Dmir_RNA_seq.data/Dmir.RNA_virgin-F.ovary_R1_fq2.gz"
+    },
+    {
+      "canonical": "/PROJECT_ROOT/Dmir_RNA_seq.data/Dmir.RNA_male_testis_virgin_fq1.gz",
+      "alias": "/PROJECT_ROOT/Dmir_RNA_seq.data/Dmir.RNA_virgin-M.testis_R1_fq1.gz"
+    },
+    {
+      "canonical": "/PROJECT_ROOT/Dmir_RNA_seq.data/Dmir.RNA_male_testis_virgin_fq2.gz",
+      "alias": "/PROJECT_ROOT/Dmir_RNA_seq.data/Dmir.RNA_virgin-M.testis_R1_fq2.gz"
+    }
+  ]
+}

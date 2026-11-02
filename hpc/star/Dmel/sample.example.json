@@ -1,0 +1,21 @@
+{
+  "sample_id": "dmel_male_head.ERR2103703_R2",
+  "run_accession": "ERR2103703",
+  "layout": "PE",
+  "strandedness": "auto",
+  "read1": "/PROJECT_ROOT/Dmel-RNA-FASTA/dmel_male_head.ERR2103703_R2.fastq1.gz",
+  "read2": "/PROJECT_ROOT/Dmel-RNA-FASTA/dmel_male_head.ERR2103703_R2.fastq2.gz",
+  "layout_evidence": "paired fastq1/fastq2; user confirmed; original rename record",
+  "input_metadata": [
+    {
+      "path": "/PROJECT_ROOT/Dmel-RNA-FASTA/dmel_male_head.ERR2103703_R2.fastq1.gz",
+      "bytes": 638877677,
+      "mtime_ns": 0
+    },
+    {
+      "path": "/PROJECT_ROOT/Dmel-RNA-FASTA/dmel_male_head.ERR2103703_R2.fastq2.gz",
+      "bytes": 660454822,
+      "mtime_ns": 0
+    }
+  ]
+}

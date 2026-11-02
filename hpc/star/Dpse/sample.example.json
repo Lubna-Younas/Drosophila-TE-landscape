@@ -1,0 +1,25 @@
+{
+  "sample_id": "Dpse.RNA_male_AdultTestis_Rep1_DRR055270",
+  "run_accession": "DRR055270",
+  "layout": "PE",
+  "strandedness": "auto",
+  "read1": "/PROJECT_ROOT/Dpse_RNA_seq.data/Dpse.RNA_male_AdultTestis_Rep1_DRR055270_fastq1.gz",
+  "read2": "/PROJECT_ROOT/Dpse_RNA_seq.data/Dpse.RNA_male_AdultTestis_Rep1_DRR055270_fastq2.gz",
+  "gzip_depths": [
+    1,
+    1
+  ],
+  "layout_evidence": "NCBI paired RNA-seq metadata and matching first-five read IDs; complete validation runs in the job",
+  "input_metadata": [
+    {
+      "path": "/PROJECT_ROOT/Dpse_RNA_seq.data/Dpse.RNA_male_AdultTestis_Rep1_DRR055270_fastq1.gz",
+      "bytes": 2526046213,
+      "mtime_ns": 0
+    },
+    {
+      "path": "/PROJECT_ROOT/Dpse_RNA_seq.data/Dpse.RNA_male_AdultTestis_Rep1_DRR055270_fastq2.gz",
+      "bytes": 2487455319,
+      "mtime_ns": 0
+    }
+  ]
+}

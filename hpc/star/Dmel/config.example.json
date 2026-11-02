@@ -1,0 +1,24 @@
+{
+  "project": "Spatiotemporal regulation of transposable elements across Drosophila species",
+  "run_dir": "/PROJECT_ROOT/mapping_lisc_20261023_r3",
+  "results_dir": "/PROJECT_ROOT/mapping_lisc_20261023_r3/results",
+  "reference_dir": "/PROJECT_ROOT/mapping_lisc_20261023_r3/reference",
+  "scratch_root": "/tmp",
+  "assembly": "FlyBase_r6.69",
+  "genome": "/PROJECT_ROOT/Dmel_genome/dmel-all-chromosome-r6.69.fasta.gz",
+  "gtf": "/PROJECT_ROOT/Dmel_genome/dmel-all-r6.69.gtf.gz",
+  "genome_sha256": "2fdc6b46d2c1d26f56453acc663d92c6fa921c75a054156c68c5912f3134d1b8",
+  "gtf_sha256": "29e24e0e1aba171bd4fa03c804648d0730173e12275bd47f453187226f3febf6",
+  "reference_checksum_provenance": "Existing project audit, verified again on compute node during reference preparation",
+  "annotation_excluded_transcripts": [
+    "FBtr0084079",
+    "FBtr0084080",
+    "FBtr0084081",
+    "FBtr0084082",
+    "FBtr0084083",
+    "FBtr0084084",
+    "FBtr0084085",
+    "FBtr0307759",
+    "FBtr0307760"
+  ]
+}
