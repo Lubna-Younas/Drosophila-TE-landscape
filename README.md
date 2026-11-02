@@ -2,7 +2,7 @@
 
 HPC workflow record for **Spatiotemporal regulation of transposable elements across Drosophila species**.
 
-This repository contains the STAR RNA-seq mapping and Telescope TE-expression code used for **D. melanogaster (Dmel), D. miranda (Dmir), and D. pseudoobscura (Dpse)**. The source was exported from the executed controllers on 2 November 2026. Personal storage paths and account details are replaced with placeholders.
+This repository contains the STAR RNA-seq mapping and Telescope TE-expression code used for **Drosophila species**. 
 
 **Start with [Commands in execution order](docs/COMMANDS_IN_ORDER.md).** It connects each command to its inputs, outputs, and validation gate.
 
