@@ -33,8 +33,6 @@ The **shared 29 October annotation** is the version selected for current cross-s
 
 ## Gene and TE density figures — 3 November 2026
 
-[![Two Circos designs](analysis/gene_TE_density_circos_20261103/figures/compare_both_designs.png)](analysis/gene_TE_density_circos_20261103/figures/both_circos_designs.pdf)
-
 - **A — chromosome composition:** broad solid segments show each TE class's share of a chromosome's TE-covered bases; segment positions are not genomic locations.
 - **B — dominant class by position:** each 100 kb window is coloured by its largest TE class; minority classes are omitted.
 
