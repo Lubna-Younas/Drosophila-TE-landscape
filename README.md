@@ -31,7 +31,7 @@ Useful guides:
 
 We retain earlier Telescope folders to explain prior results, not to mix their counts with the current catalogue. Reference-model groups still require biological family reconciliation; a shared library alone does not establish comparable biological families or remove study, tissue, and library biases.
 
-## Gene and TE density figures — 3 November 2026
+## Gene and TE density
 
 Repository checks use only Python's standard library and Bash:
 
