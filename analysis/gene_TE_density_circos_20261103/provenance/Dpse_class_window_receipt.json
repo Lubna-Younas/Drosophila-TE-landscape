@@ -1,0 +1,21 @@
+{
+  "species": "Dpse",
+  "state": "VALIDATED",
+  "catalogue_sha256": "65a3dd3644d0e127596c07f8d7061832ff628235aef28cb3941c8619901edbb8",
+  "classification_sha256": "6159c78b14f1bcf5a0ecbc26388c8feb02c0c4858a110beb5ca039868de53518",
+  "windows": 1858,
+  "TE_loci": 62135,
+  "output_sha256": "ed842fd4ab5a787e36df11fb58b68421a009bf704b6e6aa7655131ff480646e0",
+  "every_window_matches_existing_TE_union": true,
+  "every_chromosome_class_total_matches_existing_export": true,
+  "classes": [
+    "LTR",
+    "LINE",
+    "DNA",
+    "RC",
+    "Unknown",
+    "Mixed"
+  ],
+  "cross_class_overlap": "Mixed; counted once",
+  "ring_denominator": "TE-covered bases in each window; white if no TE coverage"
+}

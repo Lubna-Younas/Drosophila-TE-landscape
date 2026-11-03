@@ -1,0 +1,238 @@
+{
+  "state": "DENSITIES_VALIDATED",
+  "created_utc": "2026-11-03T12:48:42.400363+00:00",
+  "window_bp": 100000,
+  "denominator": "assembled span including N; non-N alternatives in tables",
+  "gene_definition": "one midpoint per unique gene_id, all annotated gene biotypes",
+  "TE_definition": "union of retained TE locus blocks; nested gaps excluded; cross-class overlaps Mixed",
+  "species": [
+    {
+      "species": "Dmel",
+      "assembly": "FlyBase_r6.69",
+      "source_checks": {
+        "genome": {
+          "path": "source-file:dmel-all-chromosome-r6.69.fasta.gz",
+          "sha256": "2fdc6b46d2c1d26f56453acc663d92c6fa921c75a054156c68c5912f3134d1b8",
+          "bytes": 42393062,
+          "mtime_ns": 1788978999000000000
+        },
+        "gtf": {
+          "path": "source-file:dmel-all-r6.69.gtf.gz",
+          "sha256": "29e24e0e1aba171bd4fa03c804648d0730173e12275bd47f453187226f3febf6",
+          "bytes": 4059756,
+          "mtime_ns": 1788979021000000000
+        },
+        "locus_catalog.tsv": {
+          "path": "source-file:locus_catalog.tsv",
+          "sha256": "1e3e5f94b2a1a6cc40bb1129069f3bd522bd97a23cedad17f104dbfe5de1ab10",
+          "bytes": 3076954,
+          "mtime_ns": 1793276932904898000
+        },
+        "genome_dictionary.json": {
+          "path": "source-file:genome_dictionary.json",
+          "sha256": "c3551b49808c562e9b2eb471fd55f09b8612343efec972b5270c1b475f88f72c",
+          "bytes": 51128,
+          "mtime_ns": 1793276933363894973
+        },
+        "TE_genome": {
+          "path": "source-file:genome.fa",
+          "sha256": "3a2b09ae95087bfaaa318f9a2a9ac410a3783c5e2d045d715c74f65b91328ec2",
+          "bytes": 145929173,
+          "mtime_ns": 1792762218188248789
+        }
+      },
+      "genes": {
+        "features": {
+          "gene": 17872,
+          "mRNA": 30838,
+          "5UTR": 46858,
+          "exon": 190183,
+          "start_codon": 30923,
+          "CDS": 163381,
+          "stop_codon": 30863,
+          "3UTR": 33779,
+          "tRNA": 312,
+          "pseudogene": 365,
+          "snoRNA": 270,
+          "ncRNA": 3059,
+          "snRNA": 32,
+          "rRNA": 115,
+          "pre_miRNA": 262,
+          "miRNA": 485
+        },
+        "genes": 17872,
+        "explicit_gene_features": 17872,
+        "mixed_strand_gene_ids": 1,
+        "child_bounds_outside_gene": [
+          {
+            "gene_id": "FBgn0013675",
+            "accession": "mitochondrion_genome",
+            "gene_start0": 3082,
+            "gene_end0": 3767,
+            "child_min_start0": 3082,
+            "child_max_end0": 3769
+          },
+          {
+            "gene_id": "FBgn0013680",
+            "accession": "mitochondrion_genome",
+            "gene_start0": 239,
+            "gene_end0": 1263,
+            "child_min_start0": 239,
+            "child_max_end0": 1265
+          },
+          {
+            "gene_id": "FBgn0013684",
+            "accession": "mitochondrion_genome",
+            "gene_start0": 6408,
+            "gene_end0": 8125,
+            "child_min_start0": 6406,
+            "child_max_end0": 8125
+          },
+          {
+            "gene_id": "FBgn0262952",
+            "accession": "mitochondrion_genome",
+            "gene_start0": 8206,
+            "gene_end0": 9545,
+            "child_min_start0": 8204,
+            "child_max_end0": 9545
+          }
+        ],
+        "span_policy": "explicit gene rows authoritative; gene-record union only if no gene feature"
+      },
+      "sequence_count": 1870,
+      "TE_loci": 33674,
+      "TE_union_bp": 25056315,
+      "library_sha256": "d5c33c1afc5688c687a17db06847e825b53fe72e0c817fbd532b1c2bbc715dc4",
+      "all_sequence_digests_match": true,
+      "independent_union_matches_partition": true,
+      "window_sums_match_sequence_sums": true
+    },
+    {
+      "species": "Dmir",
+      "assembly": "GCF_003369915.1_D.miranda_PacBio2.1",
+      "source_checks": {
+        "genome": {
+          "path": "source-file:GCF_003369915.1_D.miranda_PacBio2.1_genomic.fna.gz",
+          "sha256": "9af06cbcf9c1680d0997f61437838ee458696127d716322b8bbfd63498b3b9f6",
+          "bytes": 79610606,
+          "mtime_ns": 1791465448316702466
+        },
+        "gtf": {
+          "path": "source-file:GCF_003369915.1_D.miranda_PacBio2.1_genomic.gtf.gz",
+          "sha256": "3d8112fe9365da2c46ca0a207484c8e9c18b6d164b7c71c1f783ed1b48c074de",
+          "bytes": 5879172,
+          "mtime_ns": 1791465452850833472
+        },
+        "locus_catalog.tsv": {
+          "path": "source-file:locus_catalog.tsv",
+          "sha256": "23dca542b0cefdd055c75b57ff6bc3e8161bf5bccfef4705e3a3307611fb605a",
+          "bytes": 13131258,
+          "mtime_ns": 1793283947248766933
+        },
+        "genome_dictionary.json": {
+          "path": "source-file:genome_dictionary.json",
+          "sha256": "8ad4d0d88f1a2b088c9dea877d229ae8e39fda2fe23d4aa01f6080101dde4a0e",
+          "bytes": 2836,
+          "mtime_ns": 1793283948122765172
+        },
+        "TE_genome": {
+          "path": "source-file:genome.fa",
+          "sha256": "b7583660474148f88c9382d427a734661af970d5989aa52dc296d43ac5602fb2",
+          "bytes": 290700447,
+          "mtime_ns": 1792790801395631194
+        }
+      },
+      "genes": {
+        "features": {
+          "gene": 23864,
+          "exon": 211201,
+          "CDS": 179054,
+          "start_codon": 32332,
+          "stop_codon": 32186
+        },
+        "genes": 23864,
+        "explicit_gene_features": 23864,
+        "mixed_strand_gene_ids": 0,
+        "child_bounds_outside_gene": [],
+        "span_policy": "explicit gene rows authoritative; gene-record union only if no gene feature"
+      },
+      "sequence_count": 104,
+      "TE_loci": 122756,
+      "TE_union_bp": 105939142,
+      "library_sha256": "d5c33c1afc5688c687a17db06847e825b53fe72e0c817fbd532b1c2bbc715dc4",
+      "all_sequence_digests_match": true,
+      "independent_union_matches_partition": true,
+      "window_sums_match_sequence_sums": true
+    },
+    {
+      "species": "Dpse",
+      "assembly": "Dpse.UCI_MV25_Y.chr_user_composite",
+      "source_checks": {
+        "genome": {
+          "path": "source-file:Dpse.UCI_MV25_Y.chr.fa",
+          "sha256": "314997b86d3cb2d6624bf8cce5b5a4f0767b63cc750d2443e35f0008369cf8c4",
+          "bytes": 188548786,
+          "mtime_ns": 1793658260319268572
+        },
+        "gtf": {
+          "path": "source-file:Dpse.UCI_MV25_Y.R3.chr.gtf",
+          "sha256": "2c810c4e9ae3bcc04d64620384f4c23bb144d35337f6b3769c5dc779aed52cfd",
+          "bytes": 44975409,
+          "mtime_ns": 1793658754380150529
+        },
+        "locus_catalog.tsv": {
+          "path": "source-file:locus_catalog.tsv",
+          "sha256": "65a3dd3644d0e127596c07f8d7061832ff628235aef28cb3941c8619901edbb8",
+          "bytes": 5849045,
+          "mtime_ns": 1793708077221535259
+        },
+        "genome_dictionary.json": {
+          "path": "source-file:genome_dictionary.json",
+          "sha256": "75167daf472b0bccab7ea19dbd22782b9584c7dfa549727ce433488d55840f56",
+          "bytes": 106,
+          "mtime_ns": 1793708078061534236
+        },
+        "TE_genome": {
+          "path": "source-file:Dpse.UCI_MV25_Y.chr.fa",
+          "sha256": "314997b86d3cb2d6624bf8cce5b5a4f0767b63cc750d2443e35f0008369cf8c4",
+          "bytes": 188548786,
+          "mtime_ns": 1793658260319268572
+        }
+      },
+      "genes": {
+        "features": {
+          "gene": 17050,
+          "transcript": 30746,
+          "exon": 194426,
+          "CDS": 167687
+        },
+        "genes": 17050,
+        "explicit_gene_features": 17050,
+        "mixed_strand_gene_ids": 0,
+        "child_bounds_outside_gene": [],
+        "span_policy": "explicit gene rows authoritative; gene-record union only if no gene feature"
+      },
+      "sequence_count": 6,
+      "TE_loci": 62135,
+      "TE_union_bp": 48186650,
+      "library_sha256": "d5c33c1afc5688c687a17db06847e825b53fe72e0c817fbd532b1c2bbc715dc4",
+      "all_sequence_digests_match": true,
+      "independent_union_matches_partition": true,
+      "window_sums_match_sequence_sums": true
+    }
+  ],
+  "output_checksums": {
+    "tables/Dmir_TE_superfamilies.tsv": "a6e28263808ab4711d3bbeecc56ca7d7e1914efc743b5ec4386c5793af621241",
+    "tables/Dmir_sequences.tsv": "4f5922c5489608faf64d2cba964ef07c10fb89e7df34da9b0a91f219b666b986",
+    "tables/Dmir_gene_midpoints.tsv": "722bac44e104d664284f2006d6a78cdeec45bcbe26f2f007b7ed639e4b715e3a",
+    "tables/Dmel_sequences.tsv": "a4b02a8603568ea34d47c5ff11e751680db24b302325954b0a7bf0442ebeee1e",
+    "tables/Dpse_gene_midpoints.tsv": "a777987a316fcd047beb7cdf695ef4290a5ba8729e142c1e57703f2aad362312",
+    "tables/Dmir_windows_100kb.tsv": "b85eac653932fa09d04f2059cc8c40af733edb7132007005e663d0bf9f6d0f89",
+    "tables/Dpse_TE_superfamilies.tsv": "f397da50f878dd214bcd2ab74a7e33c57851f8014367c3cdf674ef75361924d0",
+    "tables/Dmel_TE_superfamilies.tsv": "cf4beb20fad7cf1b7f7e2bf57e98542741e67c471ace17f63625c78d4954309c",
+    "tables/Dpse_windows_100kb.tsv": "a2d8dc62ebcdd5e2038732ede0cc7735a98ce6afc277ac587980971e40a69229",
+    "tables/Dmel_gene_midpoints.tsv": "04de2009a213fff6143f8d5e14b6cfdc5a44377f2ab2af1817299aaf78cdffcf",
+    "tables/Dmel_windows_100kb.tsv": "04b319b2d65a1c0f0f203e769d656c704c232f744dcd1054e90e73c1b03307b3",
+    "tables/Dpse_sequences.tsv": "74b3f8e84b9e35d9b20ee0271d7c4595e721c2d210786751bd6d712d5a7e4d9b"
+  }
+}

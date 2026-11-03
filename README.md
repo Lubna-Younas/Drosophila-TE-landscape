@@ -21,6 +21,8 @@ These files preserve the executed workflow and its recovery history. **They are 
 
 Useful guides:
 
+- [Gene and TE density figures: two Circos designs (3 November 2026)](analysis/gene_TE_density_circos_20261103/README.md)
+
 - [Output files and why their row counts differ](docs/OUTPUTS_EXPLAINED.md)
 - [Assemblies, software versions, and source provenance](docs/PROVENANCE.md)
 - [What changed during recovery](docs/RECOVERY_HISTORY.md)
@@ -28,6 +30,19 @@ Useful guides:
 - [Repository maintenance commands](docs/GITHUB_MAINTENANCE.md)
 
 The **shared 29 October annotation** is the version selected for current cross-species comparisons. Earlier Telescope folders are retained to explain prior results, not to mix their counts with the current catalogue. Reference-model groups still require biological family reconciliation; a shared library alone does not establish comparable biological families or remove study, tissue, and library biases.
+
+## Gene and TE density figures — 3 November 2026
+
+[![Two Circos designs](analysis/gene_TE_density_circos_20261103/figures/compare_both_designs.png)](analysis/gene_TE_density_circos_20261103/figures/both_circos_designs.pdf)
+
+- **A — chromosome composition:** broad solid segments show each TE class's share of a chromosome's TE-covered bases; segment positions are not genomic locations.
+- **B — dominant class by position:** each 100 kb window is coloured by its largest TE class; minority classes are omitted.
+
+[Two-page PDF](analysis/gene_TE_density_circos_20261103/figures/both_circos_designs.pdf) · [Figures, editable SVGs and data](analysis/gene_TE_density_circos_20261103/) · [Reproduction commands](docs/CIRCOS_FIGURES.md)
+
+Both figures use shared 0–1 scales: gene density is genes per 100 kb divided by 140; TE density is covered bases divided by assembled window span. They retain all 62 Dmir Y-associated scaffolds. The package includes exact plotting inputs, class catalogues, source hashes, code and validation for all 6,117 displayed windows.
+
+This figure package uses the **new Dpse UCI_MV25_Y composite assembly and its matching annotations**, with the same 679-model TE library. It is distinct from the earlier GCA_004329205.1 Dpse STAR/Telescope execution snapshot documented above. These figures show genomic annotation densities, not RNA expression or conserved insertions. No mapping jobs are launched by figure reproduction.
 
 Repository checks use only Python's standard library and Bash:
 

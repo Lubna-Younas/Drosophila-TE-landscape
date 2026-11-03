@@ -1,0 +1,72 @@
+{
+  "state": "PASS",
+  "source_hashes_valid": true,
+  "plotted_windows": 6117,
+  "species_order": [
+    "Dmir",
+    "Dpse",
+    "Dmel"
+  ],
+  "total_data_tracks": 12,
+  "all_class_windows_reconcile_to_total_TE_bp": true,
+  "phylogeny_branch_lengths_scale_in_Myr": true,
+  "all_plotted_windows_exactly_match_source": true,
+  "all_selected_sequences_complete": true,
+  "Dmir_Y_scaffolds_included": 62,
+  "Dmir_Y_span_bp": 110504817,
+  "Y_assignments_and_lengths_match_assembly_report": true,
+  "chromosome_totals_match_prior_verified_tables": true,
+  "source_sequence_scope_fully_reconciled": true,
+  "figure_files": {
+    "A_composition_circos.pdf": {
+      "bytes": 2030135,
+      "sha256": "e4504039bdf3d4463f169d587bccb4c26e2d0dd01cf22fa0ff56dc79a9a757b4"
+    },
+    "A_composition_circos.png": {
+      "bytes": 1754367,
+      "sha256": "d711233cc5dc69225343d4ef650dd88678b10a82e7fe536a85a3aca8fe3a22d8"
+    },
+    "A_composition_circos.svg": {
+      "bytes": 5601239,
+      "sha256": "12d36a89231237df1f44ce33d60aee9cd8f7c116d0405215e30a270646fe2c4f"
+    },
+    "A_composition_preview.png": {
+      "bytes": 679027,
+      "sha256": "5be6d0014e82739966c265d88f3c27d2f94799a47e0872a448b96a5ef7523214"
+    },
+    "B_dominant_circos.pdf": {
+      "bytes": 2922715,
+      "sha256": "c1dfc40349a24cdc953a5c8b27a65423159aa1deb93dc083c69e9f613b8eb495"
+    },
+    "B_dominant_circos.png": {
+      "bytes": 1873309,
+      "sha256": "20bcf4daa78d27cf80825618b65e3380bee744fc188b216c63794f076254d25c"
+    },
+    "B_dominant_circos.svg": {
+      "bytes": 8172168,
+      "sha256": "0e71675054e94fa532cdd07caf0960749b513ab1857655f3873a03d4f35e7ef2"
+    },
+    "B_dominant_preview.png": {
+      "bytes": 738621,
+      "sha256": "860884c6780cd9aaf071ba0ee4b8b329d238d5ee2ac0c1e779dbc84ea817767f"
+    },
+    "both_circos_designs.pdf": {
+      "bytes": 4952402,
+      "sha256": "31fbe38c0ec85b97e3d13d5d4f09e2a3c2351b1a8d35e3fd654145fffc7fe1e1"
+    },
+    "compare_both_designs.png": {
+      "bytes": 1023104,
+      "sha256": "0f27fed49ef41a9748aaeddda22741220c7f3ab1c8c88e10338088f7424a6530"
+    }
+  },
+  "common_0_1_scaling_reconciled_to_raw_counts": true,
+  "composition_sectors_reconciled_to_class_bp": true,
+  "chromosome_classes_match_independent_superfamily_export": true,
+  "dominant_classes_reconciled_to_each_window": true,
+  "dominant_tie_windows": 3,
+  "no_TE_windows": 30,
+  "figure_variants": [
+    "composition",
+    "dominant"
+  ]
+}

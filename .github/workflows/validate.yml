@@ -19,3 +19,7 @@ jobs:
         run: python3 scripts/validate_repository.py
       - name: Run existing small synthetic checks without HPC tools
         run: python3 scripts/run_synthetic_checks.py
+      - name: Install image-validation dependency
+        run: python -m pip install Pillow==11.3.0
+      - name: Validate published Circos values and artifacts without rewriting them
+        run: python analysis/gene_TE_density_circos_20261103/code/validate_package.py --check-only

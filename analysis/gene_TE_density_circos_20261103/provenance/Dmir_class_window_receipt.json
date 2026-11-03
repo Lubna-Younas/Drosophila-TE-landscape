@@ -1,0 +1,21 @@
+{
+  "species": "Dmir",
+  "state": "VALIDATED",
+  "catalogue_sha256": "23dca542b0cefdd055c75b57ff6bc3e8161bf5bccfef4705e3a3307611fb605a",
+  "classification_sha256": "6159c78b14f1bcf5a0ecbc26388c8feb02c0c4858a110beb5ca039868de53518",
+  "windows": 2937,
+  "TE_loci": 122756,
+  "output_sha256": "561a6716db2adbdd81b64827913c32c7e443822734ae521cc30f5460239767d1",
+  "every_window_matches_existing_TE_union": true,
+  "every_chromosome_class_total_matches_existing_export": true,
+  "classes": [
+    "LTR",
+    "LINE",
+    "DNA",
+    "RC",
+    "Unknown",
+    "Mixed"
+  ],
+  "cross_class_overlap": "Mixed; counted once",
+  "ring_denominator": "TE-covered bases in each window; white if no TE coverage"
+}

@@ -1,5 +1,7 @@
 # Commands in execution order
 
+The STAR/Telescope commands below record the historical execution snapshots. For the subsequently published 3 November genomic-density figures, follow [Circos figure reproduction](CIRCOS_FIGURES.md). That package is self-contained and identifies its newer Dpse reference separately.
+
 This is the ordered command record for the STAR → RepeatMasker → Telescope workflow. Commands were reconstructed from the executed source and saved configuration/receipts; a complete interactive shell-history transcript is not available. Internal tool commands below explain what the workers executed. They are **not additional steps to run after the worker**, which would duplicate the work.
 
 The source snapshots use `/PROJECT_ROOT`, `/SOFTWARE_ROOT`, `/DFAM_FAMDB`, and `YOUR_ACCOUNT` placeholders. Replace them only in a **new configured deployment**. Existing successful controllers and results remain immutable. Examples labelled **adapted recipe** explain portable submission; they are not presented as historical terminal commands.

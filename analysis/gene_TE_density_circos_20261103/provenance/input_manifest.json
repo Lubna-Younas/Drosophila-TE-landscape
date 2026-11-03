@@ -1,0 +1,116 @@
+[
+  {
+    "original_file": "original_density_package/Dmel_TE_superfamilies.tsv",
+    "frozen_file": "source/Dmel_TE_superfamilies.tsv",
+    "sha256": "cf4beb20fad7cf1b7f7e2bf57e98542741e67c471ace17f63625c78d4954309c",
+    "bytes": 182098
+  },
+  {
+    "original_file": "original_density_package/Dmel_locus_catalog.tsv",
+    "frozen_file": "source/Dmel_locus_catalog.tsv",
+    "sha256": "1e3e5f94b2a1a6cc40bb1129069f3bd522bd97a23cedad17f104dbfe5de1ab10",
+    "bytes": 3076954
+  },
+  {
+    "original_file": "original_density_package/Dmel_sequences.tsv",
+    "frozen_file": "source/Dmel_sequences.tsv",
+    "sha256": "a4b02a8603568ea34d47c5ff11e751680db24b302325954b0a7bf0442ebeee1e",
+    "bytes": 268045
+  },
+  {
+    "original_file": "original_density_package/Dmel_windows_100kb.tsv",
+    "frozen_file": "source/Dmel_windows_100kb.tsv",
+    "sha256": "04b319b2d65a1c0f0f203e769d656c704c232f744dcd1054e90e73c1b03307b3",
+    "bytes": 250998
+  },
+  {
+    "original_file": "original_density_package/Dmir_TE_superfamilies.tsv",
+    "frozen_file": "source/Dmir_TE_superfamilies.tsv",
+    "sha256": "a6e28263808ab4711d3bbeecc56ca7d7e1914efc743b5ec4386c5793af621241",
+    "bytes": 53943
+  },
+  {
+    "original_file": "original_density_package/Dmir_locus_catalog.tsv",
+    "frozen_file": "source/Dmir_locus_catalog.tsv",
+    "sha256": "23dca542b0cefdd055c75b57ff6bc3e8161bf5bccfef4705e3a3307611fb605a",
+    "bytes": 13131258
+  },
+  {
+    "original_file": "original_density_package/Dmir_sequences.tsv",
+    "frozen_file": "source/Dmir_sequences.tsv",
+    "sha256": "4f5922c5489608faf64d2cba964ef07c10fb89e7df34da9b0a91f219b666b986",
+    "bytes": 16533
+  },
+  {
+    "original_file": "original_density_package/Dmir_windows_100kb.tsv",
+    "frozen_file": "source/Dmir_windows_100kb.tsv",
+    "sha256": "b85eac653932fa09d04f2059cc8c40af733edb7132007005e663d0bf9f6d0f89",
+    "bytes": 233395
+  },
+  {
+    "original_file": "original_density_package/Dpse_TE_superfamilies.tsv",
+    "frozen_file": "source/Dpse_TE_superfamilies.tsv",
+    "sha256": "f397da50f878dd214bcd2ab74a7e33c57851f8014367c3cdf674ef75361924d0",
+    "bytes": 11474
+  },
+  {
+    "original_file": "original_density_package/Dpse_locus_catalog.tsv",
+    "frozen_file": "source/Dpse_locus_catalog.tsv",
+    "sha256": "65a3dd3644d0e127596c07f8d7061832ff628235aef28cb3941c8619901edbb8",
+    "bytes": 5849045
+  },
+  {
+    "original_file": "original_density_package/Dpse_sequences.tsv",
+    "frozen_file": "source/Dpse_sequences.tsv",
+    "sha256": "74b3f8e84b9e35d9b20ee0271d7c4595e721c2d210786751bd6d712d5a7e4d9b",
+    "bytes": 1121
+  },
+  {
+    "original_file": "original_density_package/Dpse_windows_100kb.tsv",
+    "frozen_file": "source/Dpse_windows_100kb.tsv",
+    "sha256": "a2d8dc62ebcdd5e2038732ede0cc7735a98ce6afc277ac587980971e40a69229",
+    "bytes": 125927
+  },
+  {
+    "original_file": "original_density_package/GCF_003369915.1_D.miranda_PacBio2.1_assembly_report.txt",
+    "frozen_file": "source/GCF_003369915.1_D.miranda_PacBio2.1_assembly_report.txt",
+    "sha256": "99686db024be16279633b5b3bb642af5db0053d7702294a62f2a0232a69fbdf3",
+    "bytes": 12407
+  },
+  {
+    "original_file": "original_density_package/chromosome_gene_TE_summary.tsv",
+    "frozen_file": "source/chromosome_gene_TE_summary.tsv",
+    "sha256": "e340de676aa303302170aef0f8cbc9662b1be94eabe596cdf75cc442d01a7c18",
+    "bytes": 3450
+  },
+  {
+    "original_file": "original_density_package/chromosome_labels_and_Muller_elements.tsv",
+    "frozen_file": "source/chromosome_labels_and_Muller_elements.tsv",
+    "sha256": "c5f90b290bb1dbc20f84a3236ed269f1afef2363c8b0bd35329553906b91aa57",
+    "bytes": 169705
+  },
+  {
+    "original_file": "original_density_package/classification_crosswalk.tsv",
+    "frozen_file": "source/classification_crosswalk.tsv",
+    "sha256": "6159c78b14f1bcf5a0ecbc26388c8feb02c0c4858a110beb5ca039868de53518",
+    "bytes": 7462
+  },
+  {
+    "original_file": "original_density_package/divergence_ages.json",
+    "frozen_file": "source/divergence_ages.json",
+    "sha256": "2db3588ded345b276c8d22fa12e4a6532a196c0e9ac7f26a3e47510693e0b79f",
+    "bytes": 1248
+  },
+  {
+    "original_file": "original_density_package/export_receipt.json",
+    "frozen_file": "source/export_receipt.json",
+    "sha256": "f827470b90ca8f0d230cf41c89870faffe3d4916aa829231f515fbcb649ebd96",
+    "bytes": 9349
+  },
+  {
+    "original_file": "original_density_package/numerical_and_file_validation.json",
+    "frozen_file": "source/numerical_and_file_validation.json",
+    "sha256": "14a0290399be4876a8128160423d16aae7e05d194e823ffdd48ed5bf88bf9bcf",
+    "bytes": 750
+  }
+]

@@ -1,0 +1,138 @@
+# Assembly name:  D.miranda_PacBio2.1
+# Organism name:  Drosophila miranda (flies)
+# Infraspecific name:  strain=MSH22
+# Sex:  male
+# Taxid:          7229
+# BioSample:      SAMN09375764
+# BioProject:     PRJNA474939
+# Submitter:      Bachtrog Lab, UC Berkeley
+# Date:           2019-09-23
+# Assembly type:  haploid
+# Release type:   major
+# Assembly level: Chromosome
+# Genome representation: full
+# WGS project:    QNQS02
+# Assembly method: FALCON v. 1.7.5; Canu v. Jan-2017
+# Expected final version: Yes
+# Genome coverage: 100.0x
+# Sequencing technology: PacBio
+# RefSeq category: Reference Genome
+# Excluded from RefSeq: genome length too large
+# GenBank assembly accession: GCA_003369915.2
+# RefSeq assembly accession: GCF_003369915.1
+# RefSeq assembly and GenBank assemblies identical: yes
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_003369985.2	GCF_003369985.1	Primary Assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+MullerA_pilon	assembled-molecule	XL	Chromosome	CM010493.2	=	NC_046673.1	Primary Assembly	25342487	na
+MullerAD_pilon	assembled-molecule	XR	Chromosome	CM010494.2	=	NC_046674.1	Primary Assembly	52279357	na
+MullerE_pilon	assembled-molecule	2	Chromosome	CM010495.2	=	NC_046675.1	Primary Assembly	35263383	na
+MullerC_pilon	assembled-molecule	3	Chromosome	CM010496.2	=	NC_046676.1	Primary Assembly	25306191	na
+MullerB_pilon	assembled-molecule	4	Chromosome	CM010497.2	=	NC_046677.1	Primary Assembly	32539841	na
+MullerF_pilon	assembled-molecule	5	Chromosome	CM010498.2	=	NC_046678.1	Primary Assembly	2366016	na
+Contig_Y28_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000026.1	=	NW_022881612.1	Primary Assembly	63950	na
+Contig_Y48_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000030.1	=	NW_022881634.1	Primary Assembly	19619	na
+Contig_Y29_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000041.1	=	NW_022881613.1	Primary Assembly	39125	na
+Contig_Y42_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000042.1	=	NW_022881628.1	Primary Assembly	25766	na
+Contig_Y41_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000043.1	=	NW_022881627.1	Primary Assembly	27781	na
+Contig_Y33_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000044.1	=	NW_022881618.1	Primary Assembly	45526	na
+Contig_Y27_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000045.1	=	NW_022881611.1	Primary Assembly	58232	na
+Contig_Y24_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000046.1	=	NW_022881608.1	Primary Assembly	72689	na
+Contig_Y22_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000047.1	=	NW_022881606.1	Primary Assembly	74297	na
+Contig_Y6_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000048.1	=	NW_022881651.1	Primary Assembly	1115462	na
+Contig_Y13_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000049.1	=	NW_022881596.1	Primary Assembly	186031	na
+Contig_Y44_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000050.1	=	NW_022881630.1	Primary Assembly	23799	na
+Contig_Y12_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000051.1	=	NW_022881595.1	Primary Assembly	200617	na
+Contig_Y11_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000052.1	=	NW_022881594.1	Primary Assembly	291740	na
+Contig_Y25_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000053.1	=	NW_022881609.1	Primary Assembly	70326	na
+Contig_Y23_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000054.1	=	NW_022881607.1	Primary Assembly	79661	na
+Contig_Y9_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000055.1	=	NW_022881654.1	Primary Assembly	419271	na
+Contig_Y17_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000056.1	=	NW_022881600.1	Primary Assembly	130534	na
+Contig_Y10_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000057.1	=	NW_022881593.1	Primary Assembly	367352	na
+Contig_Y35_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000058.1	=	NW_022881620.1	Primary Assembly	37266	na
+Contig_Y34_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000059.1	=	NW_022881619.1	Primary Assembly	37330	na
+Contig_Y26_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000060.1	=	NW_022881610.1	Primary Assembly	69720	na
+Contig_Y15_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000061.1	=	NW_022881598.1	Primary Assembly	131277	na
+Contig_Y21_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000062.1	=	NW_022881605.1	Primary Assembly	87767	na
+Contig_Y14_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000063.1	=	NW_022881597.1	Primary Assembly	128736	na
+Contig_Y49_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000065.1	=	NW_022881635.1	Primary Assembly	14727	na
+Contig_Y40_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000066.1	=	NW_022881626.1	Primary Assembly	26815	na
+Contig_Y36_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000067.1	=	NW_022881621.1	Primary Assembly	32078	na
+Contig_Y38_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000068.1	=	NW_022881623.1	Primary Assembly	28275	na
+Contig_Y30_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000069.1	=	NW_022881615.1	Primary Assembly	45166	na
+Contig_Y16_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000070.1	=	NW_022881599.1	Primary Assembly	119694	na
+Contig_Y4_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000071.1	=	NW_022881636.1	Primary Assembly	1516596	na
+Contig_Y7_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000072.1	=	NW_022881652.1	Primary Assembly	651259	na
+Contig_Y1_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000073.1	=	NW_022881603.1	Primary Assembly	53815770	na
+Contig_Y5_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000074.1	=	NW_022881647.1	Primary Assembly	1446963	na
+Contig_Y52_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000075.1	=	NW_022881639.1	Primary Assembly	15266	na
+Contig_Y43_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000076.1	=	NW_022881629.1	Primary Assembly	25509	na
+Contig_Y39_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000077.1	=	NW_022881624.1	Primary Assembly	28179	na
+Contig_Y50_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000078.1	=	NW_022881637.1	Primary Assembly	16734	na
+Contig_Y31_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000079.1	=	NW_022881616.1	Primary Assembly	48009	na
+Contig_Y59_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000080.1	=	NW_022881646.1	Primary Assembly	10396	na
+Contig_Y8_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000081.1	=	NW_022881653.1	Primary Assembly	422300	na
+Contig_Y53_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000082.1	=	NW_022881640.1	Primary Assembly	15213	na
+Contig_Y18_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000083.1	=	NW_022881601.1	Primary Assembly	112791	na
+Contig_Y55_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000084.1	=	NW_022881642.1	Primary Assembly	14654	na
+Contig_Y57_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000085.1	=	NW_022881644.1	Primary Assembly	13726	na
+Contig_Y60_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000086.1	=	NW_022881648.1	Primary Assembly	7309	na
+Contig_Y58_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000087.1	=	NW_022881645.1	Primary Assembly	12968	na
+Contig_Y62_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000088.1	=	NW_022881650.1	Primary Assembly	4095	na
+Contig_Y46_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000089.1	=	NW_022881632.1	Primary Assembly	22779	na
+Contig_Y61_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000090.1	=	NW_022881649.1	Primary Assembly	4329	na
+Contig_Y56_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000091.1	=	NW_022881643.1	Primary Assembly	14476	na
+Contig_Y45_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000092.1	=	NW_022881631.1	Primary Assembly	23115	na
+Contig_Y54_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000093.1	=	NW_022881641.1	Primary Assembly	14743	na
+Contig_Y51_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000094.1	=	NW_022881638.1	Primary Assembly	16449	na
+Contig_Y19_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000095.1	=	NW_022881602.1	Primary Assembly	109654	na
+Contig_Y37_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000096.1	=	NW_022881622.1	Primary Assembly	31138	na
+Contig_Y47_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000097.1	=	NW_022881633.1	Primary Assembly	20093	na
+Contig_Y32_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000098.1	=	NW_022881617.1	Primary Assembly	39204	na
+Contig_Y20_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000099.1	=	NW_022881604.1	Primary Assembly	92640	na
+Contig_Y3_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000100.1	=	NW_022881625.1	Primary Assembly	10667253	na
+Contig_Y2_pilon	unlocalized-scaffold	Y	Chromosome	QNQS02000104.1	=	NW_022881614.1	Primary Assembly	37200578	na
+Contig_AX19_pilon	unplaced-scaffold	na	na	QNQS02000001.1	=	NW_022881664.1	Primary Assembly	32442	na
+Contig_AX6_pilon	unplaced-scaffold	na	na	QNQS02000002.1	=	NW_022881686.1	Primary Assembly	167660	na
+Contig_AX15_pilon	unplaced-scaffold	na	na	QNQS02000003.1	=	NW_022881660.1	Primary Assembly	50223	na
+Contig_AX7_pilon	unplaced-scaffold	na	na	QNQS02000004.1	=	NW_022881687.1	Primary Assembly	152545	na
+Contig_AX13_pilon	unplaced-scaffold	na	na	QNQS02000005.1	=	NW_022881658.1	Primary Assembly	67786	na
+Contig_AX5_pilon	unplaced-scaffold	na	na	QNQS02000006.1	=	NW_022881685.1	Primary Assembly	167781	na
+Contig_AX4_pilon	unplaced-scaffold	na	na	QNQS02000007.1	=	NW_022881684.1	Primary Assembly	188151	na
+Contig_AX12_pilon	unplaced-scaffold	na	na	QNQS02000008.1	=	NW_022881657.1	Primary Assembly	79853	na
+Contig_AX3_pilon	unplaced-scaffold	na	na	QNQS02000012.1	=	NW_022881683.1	Primary Assembly	487532	na
+Contig_AX11_pilon	unplaced-scaffold	na	na	QNQS02000013.1	=	NW_022881656.1	Primary Assembly	83138	na
+Contig_AX2_pilon	unplaced-scaffold	na	na	QNQS02000014.1	=	NW_022881676.1	Primary Assembly	502986	na
+Contig_AX20_pilon	unplaced-scaffold	na	na	QNQS02000017.1	=	NW_022881666.1	Primary Assembly	31834	na
+Contig_AX25_pilon	unplaced-scaffold	na	na	QNQS02000018.1	=	NW_022881671.1	Primary Assembly	21181	na
+Contig_AX34_pilon	unplaced-scaffold	na	na	QNQS02000019.1	=	NW_022881681.1	Primary Assembly	3334	na
+Contig_AX32_pilon	unplaced-scaffold	na	na	QNQS02000020.1	=	NW_022881679.1	Primary Assembly	6649	na
+Contig_AX35_pilon	unplaced-scaffold	na	na	QNQS02000021.1	=	NW_022881682.1	Primary Assembly	3185	na
+Contig_AX14_pilon	unplaced-scaffold	na	na	QNQS02000022.1	=	NW_022881659.1	Primary Assembly	55649	na
+Contig_AX23_pilon	unplaced-scaffold	na	na	QNQS02000023.1	=	NW_022881669.1	Primary Assembly	29396	na
+Contig_AX22_pilon	unplaced-scaffold	na	na	QNQS02000024.1	=	NW_022881668.1	Primary Assembly	30555	na
+Contig_AX26_pilon	unplaced-scaffold	na	na	QNQS02000025.1	=	NW_022881672.1	Primary Assembly	15440	na
+Contig_AX17_pilon	unplaced-scaffold	na	na	QNQS02000027.1	=	NW_022881662.1	Primary Assembly	37313	na
+Contig_AX33_pilon	unplaced-scaffold	na	na	QNQS02000028.1	=	NW_022881680.1	Primary Assembly	5124	na
+Contig_AX27_pilon	unplaced-scaffold	na	na	QNQS02000029.1	=	NW_022881673.1	Primary Assembly	11426	na
+Contig_AX21_pilon	unplaced-scaffold	na	na	QNQS02000031.1	=	NW_022881667.1	Primary Assembly	31217	na
+Contig_AX18_pilon	unplaced-scaffold	na	na	QNQS02000032.1	=	NW_022881663.1	Primary Assembly	33065	na
+Contig_AX28_pilon	unplaced-scaffold	na	na	QNQS02000033.1	=	NW_022881674.1	Primary Assembly	10260	na
+Contig_AX31_pilon	unplaced-scaffold	na	na	QNQS02000034.1	=	NW_022881678.1	Primary Assembly	7767	na
+Contig_AX30_pilon	unplaced-scaffold	na	na	QNQS02000035.1	=	NW_022881677.1	Primary Assembly	8083	na
+Contig_AX8_pilon	unplaced-scaffold	na	na	QNQS02000036.1	=	NW_022881688.1	Primary Assembly	112083	na
+Contig_AX16_pilon	unplaced-scaffold	na	na	QNQS02000037.1	=	NW_022881661.1	Primary Assembly	48966	na
+Contig_AX24_pilon	unplaced-scaffold	na	na	QNQS02000038.1	=	NW_022881670.1	Primary Assembly	29375	na
+Contig_AX29_pilon	unplaced-scaffold	na	na	QNQS02000039.1	=	NW_022881675.1	Primary Assembly	9968	na
+Contig_AX10_pilon	unplaced-scaffold	na	na	QNQS02000040.1	=	NW_022881655.1	Primary Assembly	90940	na
+Contig_AX1_pilon	unplaced-scaffold	na	na	QNQS02000064.1	=	NW_022881665.1	Primary Assembly	760225	na
+Contig_AX_tr1_pilon	unplaced-scaffold	na	na	QNQS02000102.1	=	NW_022881689.1	Primary Assembly	75856	na
+Contig_AX_tr2_pilon	unplaced-scaffold	na	na	QNQS02000103.1	=	NW_022881690.1	Primary Assembly	44920	na
