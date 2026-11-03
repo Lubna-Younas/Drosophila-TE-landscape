@@ -1,0 +1,21 @@
+{
+  "species": "Dmel",
+  "state": "VALIDATED",
+  "catalogue_sha256": "1e3e5f94b2a1a6cc40bb1129069f3bd522bd97a23cedad17f104dbfe5de1ab10",
+  "classification_sha256": "6159c78b14f1bcf5a0ecbc26388c8feb02c0c4858a110beb5ca039868de53518",
+  "windows": 3242,
+  "TE_loci": 33674,
+  "output_sha256": "8afffeba700c2c563fe249df9d2d7c2e8c33b82009476b686938dd7954979c51",
+  "every_window_matches_existing_TE_union": true,
+  "every_chromosome_class_total_matches_existing_export": true,
+  "classes": [
+    "LTR",
+    "LINE",
+    "DNA",
+    "RC",
+    "Unknown",
+    "Mixed"
+  ],
+  "cross_class_overlap": "Mixed; counted once",
+  "ring_denominator": "TE-covered bases in each window; white if no TE coverage"
+}

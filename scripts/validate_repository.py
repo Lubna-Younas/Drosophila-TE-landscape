@@ -13,6 +13,7 @@ from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 SKIP_DIRS = {'.git', '__pycache__', '.venv'}
+FIGURE_PACKAGE = 'analysis/gene_TE_density_circos_20261103'
 
 
 def repository_files():
@@ -78,7 +79,27 @@ def check_metadata():
     return len(rows), len(selected)
 
 
-def check_files(files):
+def check_figure_package(files):
+    """Allow only explicitly inventoried, checksum-verified figure artifacts."""
+    manifest_path=ROOT/FIGURE_PACKAGE/'provenance/publication_manifest.json'
+    manifest=json.loads(manifest_path.read_text())
+    assert manifest['state']=='VALIDATED_PUBLICATION'
+    records={r['file']:r for r in manifest['files']}
+    assert len(records)==len(manifest['files'])
+    observed={str(p.relative_to(ROOT/FIGURE_PACKAGE)) for p in files
+              if (ROOT/FIGURE_PACKAGE) in p.parents and p!=manifest_path}
+    assert set(records)==observed,'Figure package inventory mismatch'
+    allowed={}
+    for rel,rec in records.items():
+        path=ROOT/FIGURE_PACKAGE/rel
+        assert (ROOT/FIGURE_PACKAGE).resolve() in path.resolve().parents
+        assert path.stat().st_size==rec['bytes']<20_000_000
+        assert hashlib.sha256(path.read_bytes()).hexdigest()==rec['published_sha256'],rel
+        allowed[str(path.relative_to(ROOT))]=rec
+    return allowed
+
+
+def check_files(files, figure_artifacts):
     counts = collections.Counter()
     forbidden_suffixes = ('.fastq', '.fastq.gz', '.fq', '.fq.gz', '.bam', '.bai',
                           '.cram', '.crai', '.sra', '.h5', '.hdf5', '.npz',
@@ -95,8 +116,17 @@ def check_files(files):
     ]
     for path in files:
         rel = str(path.relative_to(ROOT))
-        assert path.stat().st_size < 2_000_000, 'Unexpected large publication file: ' + rel
+        assert path.stat().st_size < 2_000_000 or rel in figure_artifacts, 'Unexpected large publication file: ' + rel
         assert not path.name.endswith(forbidden_suffixes), 'Data file in publication: ' + rel
+        if path.suffix in ('.pdf','.png'):
+            assert rel in figure_artifacts,'Uninventoried binary artifact: '+rel
+            raw=path.read_bytes()
+            if path.suffix=='.pdf':
+                assert raw.startswith(b'%PDF-') and b'%%EOF' in raw[-1024:]
+            else:
+                assert raw.startswith(b'\x89PNG\r\n\x1a\n')
+            counts['verified_figure_binary']+=1
+            continue
         text = path.read_text(encoding='utf-8')
         # The patterns themselves are not private values.
         if path != Path(__file__).resolve():
@@ -125,10 +155,12 @@ def main():
     sources = check_sources()
     inventory, selected = check_metadata()
     files = repository_files()
-    counts = check_files(files)
+    figure_artifacts=check_figure_package(files)
+    counts = check_files(files, figure_artifacts)
     print(json.dumps({
         'state': 'PASS_STATIC_AND_METADATA_CHECKS',
         'files': len(files), 'source_hashes_verified': sources,
+        'figure_artifact_hashes_verified':len(figure_artifacts),
         'inventory_libraries': inventory, 'selected_TE_libraries': selected,
         'syntax_and_documentation': dict(counts),
         'scientific_execution': 'NOT_RUN; no HPC submission or biological QC claim',

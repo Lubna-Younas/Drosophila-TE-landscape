@@ -1,0 +1,42 @@
+original_library_class	TE_class	display_superfamily_or_subgroup	interpretation	evidence	library_models
+DNA	DNA	Unresolved DNA	Unresolved DNA; these two unresolved labels share one display group.	Frozen shared-library model catalogue; source label retained	1
+DNA/CMC-Transib	DNA	CMC-Transib	Original library suffix retained; taxonomic ranks and legacy labels can differ.	Frozen shared-library model catalogue; source label retained	10
+DNA/DNA	DNA	Unresolved DNA	Unresolved DNA; these two unresolved labels share one display group.	Frozen shared-library model catalogue; source label retained	1
+DNA/Galileo	DNA	Galileo	Original library suffix retained; taxonomic ranks and legacy labels can differ.	Frozen shared-library model catalogue; source label retained	2
+DNA/Harbinger	DNA	Harbinger	Original library suffix retained; taxonomic ranks and legacy labels can differ.	Frozen shared-library model catalogue; source label retained	2
+DNA/MULE-NOF	DNA	MULE	Documented display aggregation only; original model classifications and annotations unchanged.	https://github.com/Dfam-consortium/RepeatMasker/blob/master/util/createRepeatLandscape.pl	1
+DNA/Mariner	DNA	TcMar group	Documented display aggregation only; original model classifications and annotations unchanged.	https://github.com/Dfam-consortium/RepeatMasker/blob/master/util/createRepeatLandscape.pl	11
+DNA/Mariner_Tc1	DNA	Mariner_Tc1	Original library suffix retained; taxonomic ranks and legacy labels can differ.	Frozen shared-library model catalogue; source label retained	1
+DNA/P	DNA	P	Original library suffix retained; taxonomic ranks and legacy labels can differ.	Frozen shared-library model catalogue; source label retained	7
+DNA/PiggyBac	DNA	piggyBac	Capitalization normalized to piggyBac only.	Frozen shared-library model catalogue; source label retained	1
+DNA/Polinton	DNA	Polinton	Original library suffix retained; taxonomic ranks and legacy labels can differ.	Frozen shared-library model catalogue; source label retained	1
+DNA/TcMar-Mariner	DNA	TcMar group	Documented display aggregation only; original model classifications and annotations unchanged.	https://github.com/Dfam-consortium/RepeatMasker/blob/master/util/createRepeatLandscape.pl	1
+DNA/TcMar-Pogo	DNA	TcMar group	Documented display aggregation only; original model classifications and annotations unchanged.	https://github.com/Dfam-consortium/RepeatMasker/blob/master/util/createRepeatLandscape.pl	2
+DNA/TcMar-Tc1	DNA	TcMar group	Documented display aggregation only; original model classifications and annotations unchanged.	https://github.com/Dfam-consortium/RepeatMasker/blob/master/util/createRepeatLandscape.pl	14
+DNA/Transib	DNA	Transib	Original library suffix retained; taxonomic ranks and legacy labels can differ.	Frozen shared-library model catalogue; source label retained	5
+DNA/hAT	DNA	hAT	Documented display aggregation only; original model classifications and annotations unchanged.	https://github.com/Dfam-consortium/RepeatMasker/blob/master/util/createRepeatLandscape.pl	7
+DNA/hAT-Ac	DNA	hAT	Documented display aggregation only; original model classifications and annotations unchanged.	https://github.com/Dfam-consortium/RepeatMasker/blob/master/util/createRepeatLandscape.pl	2
+DNA/hAT-hobo	DNA	hAT	Documented display aggregation only; original model classifications and annotations unchanged.	https://github.com/Dfam-consortium/RepeatMasker/blob/master/util/createRepeatLandscape.pl	1
+DNA/piggyBac	DNA	piggyBac	Original library suffix retained; taxonomic ranks and legacy labels can differ.	Frozen shared-library model catalogue; source label retained	1
+LINE/CR1	LINE	CR1	Original library suffix retained; taxonomic ranks and legacy labels can differ.	Frozen shared-library model catalogue; source label retained	4
+LINE/I	LINE	Jockey/I	Documented display aggregation only; original model classifications and annotations unchanged.	https://github.com/Dfam-consortium/RepeatMasker/blob/master/util/createRepeatLandscape.pl	5
+LINE/I-Jockey	LINE	Jockey/I	Documented display aggregation only; original model classifications and annotations unchanged.	https://github.com/Dfam-consortium/RepeatMasker/blob/master/util/createRepeatLandscape.pl	33
+LINE/Jockey	LINE	Jockey/I	Documented display aggregation only; original model classifications and annotations unchanged.	https://github.com/Dfam-consortium/RepeatMasker/blob/master/util/createRepeatLandscape.pl	13
+LINE/Kiri	LINE	Kiri	Original library suffix retained; taxonomic ranks and legacy labels can differ.	Frozen shared-library model catalogue; source label retained	2
+LINE/Loa	LINE	Loa	Original library suffix retained; taxonomic ranks and legacy labels can differ.	Frozen shared-library model catalogue; source label retained	7
+LINE/MiniME	LINE	MiniME	Original library suffix retained; taxonomic ranks and legacy labels can differ.	Frozen shared-library model catalogue; source label retained	1
+LINE/Outcast	LINE	Outcast	Original library suffix retained; taxonomic ranks and legacy labels can differ.	Frozen shared-library model catalogue; source label retained	1
+LINE/R1	LINE	R1	Original library suffix retained; taxonomic ranks and legacy labels can differ.	Frozen shared-library model catalogue; source label retained	13
+LINE/R1-LOA	LINE	R1-LOA	Original library suffix retained; taxonomic ranks and legacy labels can differ.	Frozen shared-library model catalogue; source label retained	1
+LINE/R2	LINE	R2	Original library suffix retained; taxonomic ranks and legacy labels can differ.	Frozen shared-library model catalogue; source label retained	2
+LINE/TRIM	LINE	TRIM	Original library suffix retained; taxonomic ranks and legacy labels can differ.	Frozen shared-library model catalogue; source label retained	1
+LINE/WORF	LINE	WORF	Original library suffix retained; taxonomic ranks and legacy labels can differ.	Frozen shared-library model catalogue; source label retained	1
+LTR/BEL	LTR	BEL/Pao	Documented display aggregation only; original model classifications and annotations unchanged.	https://flybase.org/cgi-bin/cvreport.pl?childdepth=2&cvterm=SO%3A0002266	38
+LTR/Copia	LTR	Copia	Original library suffix retained; taxonomic ranks and legacy labels can differ.	Frozen shared-library model catalogue; source label retained	31
+LTR/Gypsy	LTR	Gypsy	Original library suffix retained; taxonomic ranks and legacy labels can differ.	Frozen shared-library model catalogue; source label retained	330
+LTR/Pao	LTR	BEL/Pao	Documented display aggregation only; original model classifications and annotations unchanged.	https://flybase.org/cgi-bin/cvreport.pl?childdepth=2&cvterm=SO%3A0002266	27
+LTR/XLTR	LTR	XLTR	Original library suffix retained; taxonomic ranks and legacy labels can differ.	Frozen shared-library model catalogue; source label retained	9
+Novel/DNA	Unknown	Candidate DNA (unclassified)	Unclassified/candidate retained; not assigned to a known superfamily.	Frozen shared-library model catalogue; source label retained	1
+RC/Helentron	RC	Helentron	Original library suffix retained; taxonomic ranks and legacy labels can differ.	Frozen shared-library model catalogue; source label retained	1
+RC/Helitron	RC	Helitron	Original library suffix retained; taxonomic ranks and legacy labels can differ.	Frozen shared-library model catalogue; source label retained	6
+Unknown	Unknown	Unclassified	Unclassified/candidate retained; not assigned to a known superfamily.	Frozen shared-library model catalogue; source label retained	80

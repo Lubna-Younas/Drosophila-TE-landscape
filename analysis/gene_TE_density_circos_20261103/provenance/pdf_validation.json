@@ -1,0 +1,20 @@
+{
+  "state": "PASS",
+  "individual_figures": [
+    {
+      "file": "A_composition_circos.pdf",
+      "pages": 1,
+      "decoded_content_bytes": 26148302,
+      "sha256": "e4504039bdf3d4463f169d587bccb4c26e2d0dd01cf22fa0ff56dc79a9a757b4"
+    },
+    {
+      "file": "B_dominant_circos.pdf",
+      "pages": 1,
+      "decoded_content_bytes": 38231872,
+      "sha256": "c1dfc40349a24cdc953a5c8b27a65423159aa1deb93dc083c69e9f613b8eb495"
+    }
+  ],
+  "comparison_pages": 2,
+  "comparison_sha256": "31fbe38c0ec85b97e3d13d5d4f09e2a3c2351b1a8d35e3fd654145fffc7fe1e1",
+  "pypdf": "6.10.0"
+}

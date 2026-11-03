@@ -1,0 +1,88 @@
+{
+  "state": "FIGURES_VALIDATED",
+  "created_utc": "2026-11-03T14:17:44.275135+00:00",
+  "source_state": "DENSITIES_VALIDATED",
+  "tracks_per_species": 4,
+  "total_data_tracks": 12,
+  "ring_order_outer_to_inner": [
+    "Dmir",
+    "Dpse",
+    "Dmel"
+  ],
+  "data_window_count": 6117,
+  "max_gene_density": 137.0,
+  "common_gene_scale": [
+    0,
+    1
+  ],
+  "common_TE_scale": [
+    0,
+    1
+  ],
+  "gene_normalization": "genes_per_100kb_span / 140; same constant for all species",
+  "TE_normalization": "TE_bp / span_bp",
+  "variants": {
+    "composition": {
+      "label": "A",
+      "title": "TE-class composition per chromosome",
+      "description": "Solid segments show each class's share of TE-covered bases; segment positions are not genomic coordinates."
+    },
+    "dominant": {
+      "label": "B",
+      "title": "Dominant TE class along each chromosome",
+      "description": "Solid colours show the largest class by covered bases in each 100 kb window; minority classes are not displayed."
+    }
+  },
+  "dominant_tie_window_count": 3,
+  "no_TE_window_count": 30,
+  "Dmir_Y": {
+    "species": "Dmir",
+    "display_sector": "Y scaffolds",
+    "figure_label": "Y scaffolds\u2020",
+    "sequence_count": 62,
+    "span_bp": 110504817,
+    "gene_count": 6515,
+    "TE_union_bp": 67113005,
+    "TE_percent_span": 60.7331036076011,
+    "angle_start_deg": 218.83274269076972,
+    "angle_end_deg": 339.0
+  },
+  "scaffold_order": "descending assembled span; display only",
+  "genome_based_not_expression": true,
+  "new_mapping_or_annotation_performed": false,
+  "phylogeny_newick": "(Dmel:32.5,(Dpse:4.345,Dmir:4.345):28.155);",
+  "phylogeny_source": "https://link.springer.com/article/10.1186/1471-2148-7-87",
+  "phylogeny_is_time_scaled": true,
+  "phylogeny_ages": {
+    "source_title": "Gao et al. (2007), Molecular phylogeny of the Drosophila obscura species group, with emphasis on the Old World species",
+    "source_url": "https://link.springer.com/article/10.1186/1471-2148-7-87",
+    "source_location": "Divergence times in the obscura species group; Figure 4 and accompanying text",
+    "units": "million years before present",
+    "nodes": {
+      "Dmel_Dpse_Dmir": {
+        "reported_range_Ma": [
+          30.0,
+          35.0
+        ],
+        "plotted_age_Ma": 32.5,
+        "range_kind": "calibration range"
+      },
+      "Dpse_Dmir": {
+        "reported_range_Ma": [
+          3.76,
+          4.93
+        ],
+        "plotted_age_Ma": 4.345,
+        "range_kind": "estimated ages reported under that dating model"
+      }
+    },
+    "plotting_policy": "Use arithmetic midpoints of the stated ranges to define one illustrative ultrametric chronogram; draw the stated ranges separately. Midpoints are display choices, not newly estimated divergence dates. Ranges are not confidence intervals.",
+    "uncertainty": "Dates depend on the calibration and clock model. Other studies report younger Dpse-Dmir divergences and different melanogaster-obscura divergence dates; this is one explicitly identified published chronology, not a consensus estimate.",
+    "tree_newick_with_branch_lengths_Myr": "(Dmel:32.5,(Dpse:4.345,Dmir:4.345):28.155);"
+  },
+  "missing_class_species": [],
+  "matplotlib": "3.9.4",
+  "numpy": "2.0.2",
+  "completed_utc": "2026-11-03T14:18:11.958560+00:00",
+  "visual_review": "Both individual previews and the side-by-side comparison inspected; no clipped tracks, legend or title; inner species label spaced away from the 0-1 scale."
+}

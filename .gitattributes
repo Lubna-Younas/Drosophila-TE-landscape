@@ -1,3 +1,11 @@
 * text=auto eol=lf
 # Empty terminal TSV fields are intentional, not prose whitespace mistakes.
 *.tsv whitespace=-blank-at-eol
+
+# Preserve byte-exact figure inputs, receipts and delivered artifacts on checkout.
+analysis/gene_TE_density_circos_20261103/** -text
+# Generated SVG whitespace and data are retained exactly for checksum provenance.
+analysis/gene_TE_density_circos_20261103/figures/*.svg -whitespace linguist-generated=true
+analysis/gene_TE_density_circos_20261103/source/*.tsv linguist-generated=true
+analysis/gene_TE_density_circos_20261103/tables/*.tsv linguist-generated=true
+analysis/gene_TE_density_circos_20261103/source/*_assembly_report.txt -whitespace

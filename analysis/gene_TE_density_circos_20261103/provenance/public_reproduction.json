@@ -1,0 +1,47 @@
+{
+  "state": "PASS",
+  "self_contained_inputs": true,
+  "private_source_directory_required": false,
+  "class_windows_recomputed_from_catalogues": true,
+  "both_PNG_figures_byte_identical": true,
+  "all_6117_windows_reconciled": true,
+  "no_mapping_or_reannotation": true,
+  "checked_files": [
+    {
+      "file": "tables/Dmel_TE_classes_100kb.tsv",
+      "sha256": "8afffeba700c2c563fe249df9d2d7c2e8c33b82009476b686938dd7954979c51",
+      "reproduced_exactly": true
+    },
+    {
+      "file": "tables/Dpse_TE_classes_100kb.tsv",
+      "sha256": "ed842fd4ab5a787e36df11fb58b68421a009bf704b6e6aa7655131ff480646e0",
+      "reproduced_exactly": true
+    },
+    {
+      "file": "tables/Dmir_TE_classes_100kb.tsv",
+      "sha256": "561a6716db2adbdd81b64827913c32c7e443822734ae521cc30f5460239767d1",
+      "reproduced_exactly": true
+    },
+    {
+      "file": "tables/plotted_windows_100kb.tsv",
+      "sha256": "11665af1554e0765e9e92a10a6d4d586765c2523a1d9a64ad2d38b99653d2618",
+      "reproduced_exactly": true
+    },
+    {
+      "file": "tables/chromosome_TE_class_composition.tsv",
+      "sha256": "8a3a2666f80992b7ae7b0f2f46d4ec8d2c506871bfcfb8100b360d8c3ff98534",
+      "reproduced_exactly": true
+    },
+    {
+      "file": "figures/A_composition_circos.png",
+      "sha256": "d711233cc5dc69225343d4ef650dd88678b10a82e7fe536a85a3aca8fe3a22d8",
+      "reproduced_exactly": true
+    },
+    {
+      "file": "figures/B_dominant_circos.png",
+      "sha256": "20bcf4daa78d27cf80825618b65e3380bee744fc188b216c63794f076254d25c",
+      "reproduced_exactly": true
+    }
+  ],
+  "public_validator_additional_flag": "--check-only preserves release receipts during CI"
+}

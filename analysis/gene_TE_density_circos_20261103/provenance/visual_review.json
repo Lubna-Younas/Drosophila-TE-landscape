@@ -1,0 +1,18 @@
+{
+  "state": "PASS",
+  "reviewed_utc": "2026-11-03T14:18:11.958560+00:00",
+  "images": [
+    "A_composition_preview.png",
+    "B_dominant_preview.png",
+    "compare_both_designs.png"
+  ],
+  "checks": [
+    "Two distinct constant-thickness TE-class ring designs",
+    "Common 0-1 density labels and normalization caption visible",
+    "All three species names, chromosome labels and Dmir Y visible",
+    "Central time-scaled tree retained",
+    "Legends and explanatory captions within page bounds",
+    "Broad composition segments explicitly do not represent genomic locations",
+    "Dominant class ring distinguishes no TE and tied leaders"
+  ]
+}
